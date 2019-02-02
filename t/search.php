@@ -1,2 +1,5 @@
-<div class='title'><h3 id='ss'>搜索</h3></div><div class='p'>[searchs]</div>
-<script>document.title=SC('ss').innerHTML;</script>
+<link href="./../css/mdui.css" rel="stylesheet">
+<h1><strong>搜索</strong></h1>
+<div class='p'>
+    [searchs]
+</div>

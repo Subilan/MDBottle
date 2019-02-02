@@ -1,5 +1,5 @@
 /*!
- * mdui v0.4.2 (https://mdui.org)
+ * mdui v0.4.1 (https://mdui.org)
  * Copyright 2016-2018 zdhxiong
  * Licensed under MIT
  */
@@ -630,7 +630,7 @@
 }
 .mdui-theme-primary-pink .mdui-color-theme {
   color: #fff !important;
-  background-color: #e91e63 !important;
+  background-color: #2196f3 !important;
 }
 .mdui-theme-primary-pink .mdui-color-theme-50 {
   color: rgba(0, 0, 0, .87) !important;
@@ -654,7 +654,7 @@
 }
 .mdui-theme-primary-pink .mdui-color-theme-500 {
   color: #fff !important;
-  background-color: #e91e63 !important;
+  background-color: #2196f3 !important;
 }
 .mdui-theme-primary-pink .mdui-color-theme-600 {
   color: #fff !important;
@@ -1074,7 +1074,7 @@
 }
 .mdui-theme-accent-pink .mdui-color-theme-accent {
   color: #fff !important;
-  background-color: #ff4081 !important;
+  background-color: #2196F3 !important;
 }
 .mdui-theme-accent-pink .mdui-color-theme-a100 {
   color: rgba(0, 0, 0, .87) !important;
@@ -1082,7 +1082,7 @@
 }
 .mdui-theme-accent-pink .mdui-color-theme-a200 {
   color: #fff !important;
-  background-color: #ff4081 !important;
+  background-color: #2196F3 !important;
 }
 .mdui-theme-accent-pink .mdui-color-theme-a400 {
   color: #fff !important;
@@ -1090,7 +1090,7 @@
 }
 .mdui-theme-accent-pink .mdui-color-theme-a700 {
   color: #fff !important;
-  background-color: #c51162 !important;
+  background-color: #2196F3 !important;
 }
 .mdui-theme-accent-purple .mdui-color-theme-accent {
   color: #fff !important;
@@ -1794,7 +1794,7 @@
 }
 .mdui-color-pink {
   color: #fff !important;
-  background-color: #e91e63 !important;
+  background-color: #2196f3 !important;
 }
 .mdui-color-pink-50 {
   color: rgba(0, 0, 0, .87) !important;
@@ -1818,7 +1818,7 @@
 }
 .mdui-color-pink-500 {
   color: #fff !important;
-  background-color: #e91e63 !important;
+  background-color: #2196f3 !important;
 }
 .mdui-color-pink-600 {
   color: #fff !important;
@@ -2238,7 +2238,7 @@
 }
 .mdui-color-pink-accent {
   color: #fff !important;
-  background-color: #ff4081 !important;
+  background-color: #2196F3 !important;
 }
 .mdui-color-pink-a100 {
   color: rgba(0, 0, 0, .87) !important;
@@ -2246,7 +2246,7 @@
 }
 .mdui-color-pink-a200 {
   color: #fff !important;
-  background-color: #ff4081 !important;
+  background-color: #2196F3 !important;
 }
 .mdui-color-pink-a400 {
   color: #fff !important;
@@ -2254,7 +2254,7 @@
 }
 .mdui-color-pink-a700 {
   color: #fff !important;
-  background-color: #c51162 !important;
+  background-color: #2196F3 !important;
 }
 .mdui-color-purple-accent {
   color: #fff !important;
@@ -2819,7 +2819,7 @@
   color: #e65100 !important;
 }
 .mdui-theme-primary-pink .mdui-text-color-theme {
-  color: #e91e63 !important;
+  color: #2196f3 !important;
 }
 .mdui-theme-primary-pink .mdui-text-color-theme-50 {
   color: #fce4ec !important;
@@ -2837,7 +2837,7 @@
   color: #ec407a !important;
 }
 .mdui-theme-primary-pink .mdui-text-color-theme-500 {
-  color: #e91e63 !important;
+  color: #2196f3 !important;
 }
 .mdui-theme-primary-pink .mdui-text-color-theme-600 {
   color: #d81b60 !important;
@@ -3153,19 +3153,19 @@
   color: #ff6d00 !important;
 }
 .mdui-theme-accent-pink .mdui-text-color-theme-accent {
-  color: #ff4081 !important;
+  color: #2196F3 !important;
 }
 .mdui-theme-accent-pink .mdui-text-color-theme-a100 {
   color: #ff80ab !important;
 }
 .mdui-theme-accent-pink .mdui-text-color-theme-a200 {
-  color: #ff4081 !important;
+  color: #2196F3 !important;
 }
 .mdui-theme-accent-pink .mdui-text-color-theme-a400 {
   color: #f50057 !important;
 }
 .mdui-theme-accent-pink .mdui-text-color-theme-a700 {
-  color: #c51162 !important;
+  color: #2196F3 !important;
 }
 .mdui-theme-accent-purple .mdui-text-color-theme-accent {
   color: #e040fb !important;
@@ -3694,7 +3694,7 @@
   color: #e65100 !important;
 }
 .mdui-text-color-pink {
-  color: #e91e63 !important;
+  color: #2196f3 !important;
 }
 .mdui-text-color-pink-50 {
   color: #fce4ec !important;
@@ -3712,7 +3712,7 @@
   color: #ec407a !important;
 }
 .mdui-text-color-pink-500 {
-  color: #e91e63 !important;
+  color: #2196f3 !important;
 }
 .mdui-text-color-pink-600 {
   color: #d81b60 !important;
@@ -4028,19 +4028,19 @@
   color: #ff6d00 !important;
 }
 .mdui-text-color-pink-accent {
-  color: #ff4081 !important;
+  color: #2196F3 !important;
 }
 .mdui-text-color-pink-a100 {
   color: #ff80ab !important;
 }
 .mdui-text-color-pink-a200 {
-  color: #ff4081 !important;
+  color: #2196F3 !important;
 }
 .mdui-text-color-pink-a400 {
   color: #f50057 !important;
 }
 .mdui-text-color-pink-a700 {
-  color: #c51162 !important;
+  color: #2196F3 !important;
 }
 .mdui-text-color-purple-accent {
   color: #e040fb !important;
@@ -4467,11 +4467,11 @@
 /**
  * ======================== 快速浮动
  */
-/* 向左浮动 */
+/* 坑左浮动 */
 .mdui-float-left {
   float: left !important;
 }
-/* 向右浮动 */
+/* 坑坳浮动 */
 .mdui-float-right {
   float: right !important;
 }
@@ -4500,24 +4500,24 @@
           align-items: center !important;
 }
 /**
- * ========================= 文本对齐方式
+ * ========================= 文本对齝方弝
  */
-/* 文本左对齐 */
+/* 文本左对齝 */
 .mdui-text-left {
   text-align: left !important;
 }
-/* 文本居中对齐 */
+/* 文本居中对齝 */
 .mdui-text-center {
   text-align: center !important;
 }
-/* 文本向右对齐 */
+/* 文本坑坳对齝 */
 .mdui-text-right {
   text-align: right !important;
 }
 /**
- * ========================= 文本大小写转换
+ * ========================= 文本大尝写转杢
  */
-/* 文本转为小写 */
+/* 文本转为尝写 */
 .mdui-text-lowercase {
   text-transform: lowercase !important;
 }
@@ -4525,7 +4525,7 @@
 .mdui-text-uppercase {
   text-transform: uppercase !important;
 }
-/* 文本转为单词的首字母大写 */
+/* 文本转为坕话的首字毝大写 */
 .mdui-text-capitalize {
   text-transform: capitalize !important;
 }
@@ -4551,20 +4551,20 @@
   clear: both;
 }
 /**
- * ========================= 隐藏内容
+ * ========================= 隝藝内容
  */
-/* 隐藏元素 */
+/* 隝藝元素 */
 .mdui-hidden,
 [hidden] {
   display: none !important;
 }
-/* 使元素不可见 */
+/* 使元素丝坯觝 */
 .mdui-invisible {
   visibility: hidden;
 }
-/* Responsive utilities 响应式工具
+/* Responsive utilities 哝应弝工具
    ========================================================================== */
-/* 在特定屏幕的特备上隐藏 */
+/* 在特定屝幕的特备上隝藝 */
 @media (max-width: 599px) {
   .mdui-hidden-xs {
     display: none !important;
@@ -4590,7 +4590,7 @@
     display: none !important;
   }
 }
-/* 在比特定屏幕小的设备上隐藏 */
+/* 在比特定屝幕尝的设备上隝藝 */
 @media (max-width: 599px) {
   .mdui-hidden-xs-down {
     display: none !important;
@@ -4614,7 +4614,7 @@
 .mdui-hidden-xl-down {
   display: none !important;
 }
-/* 在比特定屏幕大的设备上隐藏 */
+/* 在比特定屝幕大的设备上隝藝 */
 .mdui-hidden-xs-up {
   display: none !important;
 }
@@ -4638,26 +4638,40 @@
     display: none !important;
   }
 }
-/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
  */
 html {
   line-height: 1.15;
-  /* 1 */
+  /* 2 */
   -webkit-text-size-adjust: 100%;
+  /* 1 */
+      -ms-text-size-adjust: 100%;
   /* 2 */
 }
 /* Sections
    ========================================================================== */
 /**
- * Remove the margin in all browsers.
+ * Remove the margin in all browsers (opinionated).
  */
 body {
   margin: 0;
+}
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
 }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -4669,6 +4683,22 @@ h1 {
 }
 /* Grouping content
    ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
@@ -4695,13 +4725,18 @@ pre {
 /* Text-level semantics
    ========================================================================== */
 /**
- * Remove the gray background on active links in IE 10.
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
   background-color: transparent;
+  /* 1 */
+
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 /**
- * 1. Remove the bottom border in Chrome 57-
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
@@ -4714,6 +4749,13 @@ abbr[title] {
   -webkit-text-decoration: underline dotted;
      -moz-text-decoration: underline dotted;
   /* 2 */
+}
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
 }
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -4733,6 +4775,19 @@ samp {
   /* 1 */
   font-size: 1em;
   /* 2 */
+}
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  color: #000;
+  background-color: #ff0;
 }
 /**
  * Add the correct font size in all browsers.
@@ -4760,30 +4815,42 @@ sup {
 /* Embedded content
    ========================================================================== */
 /**
- * Remove the border on images inside links in IE 10.
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Remove the border on images inside links in IE 10-.
  */
 img {
   border-style: none;
 }
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
 /* Forms
    ========================================================================== */
 /**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
+ * Remove the margin in Firefox and Safari.
  */
 button,
 input,
 optgroup,
 select,
 textarea {
-  /* 1 */
   margin: 0;
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 2 */
 }
 /**
  * Show the overflow in IE.
@@ -4804,13 +4871,16 @@ select {
   text-transform: none;
 }
 /**
- * Correct the inability to style clickable types in iOS and Safari.
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
+html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
+  /* 2 */
 }
 /**
  * Remove the inner border and padding in Firefox.
@@ -4821,12 +4891,6 @@ button::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   padding: 0;
   border-style: none;
-}
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-  padding: .35em .75em .625em;
 }
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -4850,20 +4914,24 @@ legend {
   /* 1 */
 }
 /**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
+  display: inline-block;
+  /* 1 */
   vertical-align: baseline;
+  /* 2 */
 }
 /**
- * Remove the default vertical scrollbar in IE 10+.
+ * Remove the default vertical scrollbar in IE.
  */
 textarea {
   overflow: auto;
 }
 /**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
  */
 [type="checkbox"],
 [type="radio"] {
@@ -4891,8 +4959,9 @@ textarea {
   /* 2 */
 }
 /**
- * Remove the inner padding in Chrome and Safari on macOS.
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+[type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -4909,9 +4978,11 @@ textarea {
 /* Interactive
    ========================================================================== */
 /*
- * Add the correct display in Edge, IE 10+, and Firefox.
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
  */
-details {
+details,
+menu {
   display: block;
 }
 /*
@@ -4920,23 +4991,31 @@ details {
 summary {
   display: list-item;
 }
-/* Misc
+/* Scripting
    ========================================================================== */
 /**
- * Add the correct display in IE 10+.
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+/**
+ * Add the correct display in IE.
  */
 template {
   display: none;
 }
+/* Hidden
+   ========================================================================== */
 /**
- * Add the correct display in IE 10.
+ * Add the correct display in IE 10-.
  */
 [hidden] {
   display: none;
 }
 /**
  * =============================================================================
- * ************   公共样式   ************
+ * ************   公共样弝   ************
  * =============================================================================
  */
 body {
@@ -4986,11 +5065,11 @@ body.mdui-theme-layout-dark *::-webkit-scrollbar-thumb {
 * {
   -webkit-tap-highlight-color: transparent;
 }
-/* 锁定屏幕 */
+/* 锝定屝幕 */
 body.mdui-locked {
   overflow: hidden;
 }
-/* 遮罩层 */
+/* 靮罩层 */
 .mdui-overlay {
   position: fixed;
   top: -5000px;
@@ -5010,12 +5089,12 @@ body.mdui-locked {
           backface-visibility: hidden;
   will-change: opacity;
 }
-/* 显示遮罩层 */
+/* 显示靮罩层 */
 .mdui-overlay-show {
   visibility: visible;
   opacity: 1;
 }
-/* 取消 transition 过渡效果 */
+/* 坖消 transition 过渡效果 */
 .mdui-no-transition {
   -webkit-transition-property: none !important;
           transition-property: none !important;
@@ -5327,12 +5406,8 @@ body.mdui-locked {
   font-size: 80%;
   color: rgba(0, 0, 0, .54);
 }
-.mdui-typo [draggable],
-.mdui-typo [draggable="true"] {
+.mdui-typo [draggable] {
   cursor: move;
-}
-.mdui-typo [draggable="false"] {
-  cursor: inherit;
 }
 .mdui-typo p,
 .mdui-typo pre,
@@ -5351,7 +5426,7 @@ body.mdui-locked {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  color: #ff4081;
+  color: #2196F3;
   text-decoration: none;
   vertical-align: top;
   outline: none;
@@ -5364,7 +5439,7 @@ body.mdui-locked {
   width: 100%;
   height: 1px;
   content: ' ';
-  background-color: #ff4081;
+  background-color: #2196F3;
   -webkit-transition: all .2s;
           transition: all .2s;
   -webkit-transform: scaleX(0);
@@ -5584,10 +5659,10 @@ body.mdui-locked {
   background-color: #ffab40;
 }
 .mdui-theme-accent-pink .mdui-typo a {
-  color: #ff4081;
+  color: #2196F3;
 }
 .mdui-theme-accent-pink .mdui-typo a:before {
-  background-color: #ff4081;
+  background-color: #2196F3;
 }
 .mdui-theme-accent-purple .mdui-typo a {
   color: #e040fb;
@@ -5667,7 +5742,7 @@ body.mdui-locked {
   -webkit-transform: translate3d(0, 0, 0) !important;
           transform: translate3d(0, 0, 0) !important;
 }
-/* 在顶部隐藏时 */
+/* 在顶部隝藝时 */
 .mdui-headroom-unpinned-top {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -5679,19 +5754,19 @@ body.mdui-locked {
   -webkit-transform: translate3d(0, 0, 0) !important;
           transform: translate3d(0, 0, 0) !important;
 }
-/* 在底部隐藏时 */
+/* 在底部隝藝时 */
 .mdui-headroom-unpinned-down {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   -webkit-transform: translate3d(0, 100%, 0) !important;
           transform: translate3d(0, 100%, 0) !important;
 }
-/* 固定应用栏中的工具栏 */
+/* 固定应用栝中的工具栝 */
 .mdui-headroom-pinned-toolbar {
   -webkit-transform: translate3d(0, 0, 0) !important;
           transform: translate3d(0, 0, 0) !important;
 }
-/* 隐藏应用栏中的工具栏 */
+/* 隝藝应用栝中的工具栝 */
 .mdui-headroom-unpinned-toolbar {
   -webkit-transform: translate3d(0, -56px, 0) !important;
           transform: translate3d(0, -56px, 0) !important;
@@ -5710,7 +5785,7 @@ body.mdui-locked {
 }
 /**
  * =============================================================================
- * ************   Collapse 折叠插件   ************
+ * ************   Collapse 折坠杒件   ************
  * =============================================================================
  */
 .mdui-collapse-item-header .mdui-collapse-item-arrow,
@@ -5805,7 +5880,7 @@ body.mdui-locked {
   line-height: 24px;
   color: rgba(0, 0, 0, .87);
 }
-/* 每一行前面的复选框 */
+/* 毝一行剝面的夝选框 */
 .mdui-table-cell-checkbox {
   padding-top: 0 !important;
   padding-bottom: 0!important;
@@ -5825,7 +5900,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-table-hoverable tbody tr:hover {
   background-color: #eee;
 }
-/* 表格放到该元素内，使表格产生滚动条时只在该元素内滚动 */
+/* 表格放到该元素内，使表格产生滚动条时坪在该元素内滚动 */
 .mdui-table-fluid {
   width: 100%;
   overflow-x: auto;
@@ -5841,11 +5916,11 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-/* 数字列，右对齐 */
+/* 数字列，坳对齝 */
 .mdui-table-col-numeric {
   text-align: right !important;
 }
-/* 行处于选中状态 */
+/* 行处于选中状思 */
 .mdui-table-row-selected {
   background-color: #f5f5f5;
 }
@@ -5925,7 +6000,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
  * ************   Media 媒体工具   ************
  * =============================================================================
  */
-/* 响应式图片和视频 */
+/* 哝应弝图片和视频 */
 .mdui-img-fluid,
 .mdui-video-fluid {
   display: block;
@@ -6157,7 +6232,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   -webkit-transform-origin: left;
           transform-origin: left;
 }
-/* 表单验证错误提示、帮助文本提示 */
+/* 表坕验话错误杝示〝帮助文本杝示 */
 .mdui-textfield-error,
 .mdui-textfield-helper {
   position: absolute;
@@ -6176,7 +6251,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-textfield-helper {
   color: rgba(0, 0, 0, .54);
 }
-/* 表单中的图标
+/* 表坕中的图标
    ========== */
 .mdui-textfield .mdui-icon {
   position: absolute;
@@ -6195,19 +6270,19 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-textfield-has-bottom .mdui-icon {
   bottom: 28px;
 }
-/* 聚焦状态的文本框
+/* 蝚焦状思的文本框
    ============= */
 .mdui-textfield-focus .mdui-textfield-input,
 .mdui-textfield-focus .mdui-textfield-input:hover {
-  border-bottom-color: #c51162;
-  -webkit-box-shadow: 0 1px 0 0 #c51162;
-          box-shadow: 0 1px 0 0 #c51162;
+  border-bottom-color: #2196F3;
+  -webkit-box-shadow: 0 1px 0 0 #2196F3;
+          box-shadow: 0 1px 0 0 #2196F3;
 }
 .mdui-textfield-focus .mdui-textfield-label,
 .mdui-textfield-focus .mdui-icon {
-  color: rgba(197, 17, 98, .87);
+  color: #2196F3
 }
-/* 含有浮动标签的文本框
+/* 坫有浮动标签的文本框
    ================ */
 .mdui-textfield-floating-label .mdui-textfield-label {
   color: rgba(0, 0, 0, .35);
@@ -6221,9 +6296,9 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
           transform: scale(.75) translateY(0);
 }
 .mdui-textfield-floating-label.mdui-textfield-focus .mdui-textfield-label {
-  color: #e91e63;
+  color: #2196f3;
 }
-/* 可展开文本框，默认向右展开
+/* 坯展开文本框，默认坑坳展开
    ========== */
 .mdui-textfield-expandable {
   width: 36px;
@@ -6263,7 +6338,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-/* 表单验证不通过
+/* 表坕验话丝通过
    =========== */
 .mdui-textfield-invalid .mdui-textfield-input,
 .mdui-textfield-invalid-html5 .mdui-textfield-input,
@@ -6295,7 +6370,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-textfield-invalid-html5 .mdui-textfield-error + .mdui-textfield-helper {
   visibility: hidden;
 }
-/* 禁用表单
+/* 禝用表坕
    ====== */
 .mdui-textfield-disabled .mdui-textfield-label,
 .mdui-textfield-disabled .mdui-textfield-input::-webkit-input-placeholder {
@@ -6356,12 +6431,12 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 }
 .mdui-theme-layout-dark .mdui-textfield-focus .mdui-textfield-input,
 .mdui-theme-layout-dark .mdui-textfield-focus .mdui-textfield-input:hover {
-  border-bottom-color: #ff4081;
-  -webkit-box-shadow: 0 1px 0 0 #ff4081;
-          box-shadow: 0 1px 0 0 #ff4081;
+  border-bottom-color: #2196F3;
+  -webkit-box-shadow: 0 1px 0 0 #2196F3;
+          box-shadow: 0 1px 0 0 #2196F3;
 }
 .mdui-theme-layout-dark .mdui-textfield-focus .mdui-textfield-label {
-  color: #ff4081;
+  color: #2196F3;
 }
 .mdui-theme-layout-dark .mdui-textfield-disabled .mdui-textfield-label,
 .mdui-theme-layout-dark .mdui-textfield-disabled .mdui-textfield-input::-webkit-input-placeholder {
@@ -6599,24 +6674,24 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   color: #ffab40;
 }
 .mdui-theme-accent-pink .mdui-textfield-focus .mdui-textfield-input {
-  border-bottom-color: #c51162;
-  -webkit-box-shadow: 0 1px 0 0 #c51162;
-          box-shadow: 0 1px 0 0 #c51162;
+  border-bottom-color: #2196F3;
+  -webkit-box-shadow: 0 1px 0 0 #2196F3;
+          box-shadow: 0 1px 0 0 #2196F3;
 }
 .mdui-theme-accent-pink .mdui-textfield-focus .mdui-textfield-label,
 .mdui-theme-accent-pink .mdui-textfield-focus .mdui-textfield-floating-label.mdui-textfield-focus .mdui-textfield-label,
 .mdui-theme-accent-pink .mdui-textfield-focus .mdui-icon {
-  color: rgba(197, 17, 98, .87);
+  color: #2196F3;
 }
 .mdui-theme-accent-pink.mdui-theme-layout-dark .mdui-textfield-focus .mdui-textfield-input {
-  border-bottom-color: #ff4081;
-  -webkit-box-shadow: 0 1px 0 0 #ff4081;
-          box-shadow: 0 1px 0 0 #ff4081;
+  border-bottom-color: #2196F3;
+  -webkit-box-shadow: 0 1px 0 0 #2196F3;
+          box-shadow: 0 1px 0 0 #2196F3;
 }
 .mdui-theme-accent-pink.mdui-theme-layout-dark .mdui-textfield-focus .mdui-textfield-label,
 .mdui-theme-accent-pink.mdui-theme-layout-dark .mdui-textfield-focus .mdui-textfield-floating-label.mdui-textfield-focus .mdui-textfield-label,
 .mdui-theme-accent-pink.mdui-theme-layout-dark .mdui-textfield-focus .mdui-icon {
-  color: #ff4081;
+  color: #2196F3;
 }
 .mdui-theme-accent-purple .mdui-textfield-focus .mdui-textfield-input {
   border-bottom-color: #a0f;
@@ -6700,7 +6775,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 }
 /**
  * =============================================================================
- * ************   Checkbox 复选框   ************
+ * ************   Checkbox 夝选框   ************
  * =============================================================================
  */
 .mdui-checkbox {
@@ -6720,9 +6795,9 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   width: 0;
   height: 0;
   overflow: hidden;
-  opacity: 0;
+  visibility: hidden;
 }
-/* 透明的圆形，用于生成圆形阴影 */
+/* 逝明的圆形，用于生戝圆形阴影 */
 .mdui-checkbox-icon {
   position: absolute;
   top: 9px;
@@ -6774,35 +6849,34 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   -webkit-transform-origin: 100% 100%;
           transform-origin: 100% 100%;
 }
-/* 选中状态的图标 */
+/* 选中状思的图标 */
 .mdui-checkbox input[type="checkbox"]:checked + .mdui-checkbox-icon:after {
-  background-color: #ff4081;
-  border-color: #ff4081;
+  background-color: #2196F3;
+  border-color: #2196F3;
 }
 .mdui-checkbox input[type="checkbox"]:checked + .mdui-checkbox-icon:before {
   opacity: 1;
   -webkit-transform: rotateZ(37deg) scale(1);
           transform: rotateZ(37deg) scale(1);
 }
-/* 禁用状态的图标 */
+/* 禝用状思的图标 */
 .mdui-checkbox input[type="checkbox"]:disabled + .mdui-checkbox-icon:after {
   border-color: rgba(0, 0, 0, .26);
 }
-/* 禁用且选中状态 */
+/* 禝用且选中状思 */
 .mdui-checkbox input[type="checkbox"]:disabled:checked + .mdui-checkbox-icon:after {
   background-color: rgba(0, 0, 0, .26) !important;
   border-color: transparent !important;
 }
-/* 阴影 */
-.mdui-checkbox:active input[type="checkbox"] + .mdui-checkbox-icon,
-.mdui-checkbox input[type="checkbox"]:focus + .mdui-checkbox-icon {
+/* 未选中〝禝用时 按下的阴影 */
+.mdui-checkbox:active input[type="checkbox"] + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(0, 0, 0, .1);
           box-shadow: 0 0 0 15px rgba(0, 0, 0, .1);
 }
-.mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
-  -webkit-box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
-          box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
+/* 已选中时按下的阴影 */
+.mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
+  -webkit-box-shadow: 0 0 0 15px rgba(64, 179, 255, .16);
+          box-shadow: 0 0 0 15px rgba(64, 179, 255, .16);
 }
 /**
  * =============================================================================
@@ -6813,8 +6887,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #ffd740;
   border-color: #ffd740;
 }
-.mdui-theme-accent-amber .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-amber .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-amber .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 215, 64, .16);
           box-shadow: 0 0 0 15px rgba(255, 215, 64, .16);
 }
@@ -6822,8 +6895,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #448aff;
   border-color: #448aff;
 }
-.mdui-theme-accent-blue .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-blue .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-blue .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(68, 138, 255, .16);
           box-shadow: 0 0 0 15px rgba(68, 138, 255, .16);
 }
@@ -6831,8 +6903,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #18ffff;
   border-color: #18ffff;
 }
-.mdui-theme-accent-cyan .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-cyan .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-cyan .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(24, 255, 255, .16);
           box-shadow: 0 0 0 15px rgba(24, 255, 255, .16);
 }
@@ -6840,8 +6911,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #ff6e40;
   border-color: #ff6e40;
 }
-.mdui-theme-accent-deep-orange .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-deep-orange .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-deep-orange .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 110, 64, .16);
           box-shadow: 0 0 0 15px rgba(255, 110, 64, .16);
 }
@@ -6849,8 +6919,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #7c4dff;
   border-color: #7c4dff;
 }
-.mdui-theme-accent-deep-purple .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-deep-purple .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-deep-purple .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(124, 77, 255, .16);
           box-shadow: 0 0 0 15px rgba(124, 77, 255, .16);
 }
@@ -6858,8 +6927,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #69f0ae;
   border-color: #69f0ae;
 }
-.mdui-theme-accent-green .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-green .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-green .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(105, 240, 174, .16);
           box-shadow: 0 0 0 15px rgba(105, 240, 174, .16);
 }
@@ -6867,8 +6935,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #536dfe;
   border-color: #536dfe;
 }
-.mdui-theme-accent-indigo .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-indigo .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-indigo .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(83, 109, 254, .16);
           box-shadow: 0 0 0 15px rgba(83, 109, 254, .16);
 }
@@ -6876,8 +6943,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #40c4ff;
   border-color: #40c4ff;
 }
-.mdui-theme-accent-light-blue .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-light-blue .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-light-blue .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(64, 196, 255, .16);
           box-shadow: 0 0 0 15px rgba(64, 196, 255, .16);
 }
@@ -6885,8 +6951,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #b2ff59;
   border-color: #b2ff59;
 }
-.mdui-theme-accent-light-green .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-light-green .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-light-green .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(178, 255, 89, .16);
           box-shadow: 0 0 0 15px rgba(178, 255, 89, .16);
 }
@@ -6894,8 +6959,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #eeff41;
   border-color: #eeff41;
 }
-.mdui-theme-accent-lime .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-lime .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-lime .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(238, 255, 65, .16);
           box-shadow: 0 0 0 15px rgba(238, 255, 65, .16);
 }
@@ -6903,17 +6967,15 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #ffab40;
   border-color: #ffab40;
 }
-.mdui-theme-accent-orange .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-orange .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-orange .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 171, 64, .16);
           box-shadow: 0 0 0 15px rgba(255, 171, 64, .16);
 }
 .mdui-theme-accent-pink .mdui-checkbox input[type="checkbox"]:checked + .mdui-checkbox-icon:after {
-  background-color: #ff4081;
-  border-color: #ff4081;
+  background-color: #2196F3;
+  border-color: #2196F3;
 }
-.mdui-theme-accent-pink .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-pink .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-pink .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
           box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
 }
@@ -6921,8 +6983,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #e040fb;
   border-color: #e040fb;
 }
-.mdui-theme-accent-purple .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-purple .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-purple .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(224, 64, 251, .16);
           box-shadow: 0 0 0 15px rgba(224, 64, 251, .16);
 }
@@ -6930,8 +6991,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #ff5252;
   border-color: #ff5252;
 }
-.mdui-theme-accent-red .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-red .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-red .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 82, 82, .16);
           box-shadow: 0 0 0 15px rgba(255, 82, 82, .16);
 }
@@ -6939,8 +6999,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #64ffda;
   border-color: #64ffda;
 }
-.mdui-theme-accent-teal .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-teal .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-teal .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(100, 255, 218, .16);
           box-shadow: 0 0 0 15px rgba(100, 255, 218, .16);
 }
@@ -6948,8 +7007,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: #ff0;
   border-color: #ff0;
 }
-.mdui-theme-accent-yellow .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon,
-.mdui-theme-accent-yellow .mdui-checkbox input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-checkbox-icon {
+.mdui-theme-accent-yellow .mdui-checkbox:active input[type="checkbox"]:checked:not(:disabled) + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 0, .16);
           box-shadow: 0 0 0 15px rgba(255, 255, 0, .16);
 }
@@ -6972,14 +7030,13 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: rgba(255, 255, 255, .3) !important;
   border-color: transparent !important;
 }
-.mdui-theme-layout-dark .mdui-checkbox:active input[type="checkbox"] + .mdui-checkbox-icon,
-.mdui-theme-layout-dark .mdui-checkbox input[type="checkbox"]:focus + .mdui-checkbox-icon {
+.mdui-theme-layout-dark .mdui-checkbox:active input[type="checkbox"] + .mdui-checkbox-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, .1);
           box-shadow: 0 0 0 15px rgba(255, 255, 255, .1);
 }
 /**
  * =============================================================================
- * ************   Radio 单选框   ************
+ * ************   Radio 坕选框   ************
  * =============================================================================
  */
 .mdui-radio {
@@ -6999,7 +7056,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   width: 0;
   height: 0;
   overflow: hidden;
-  opacity: 0;
+  visibility: hidden;
 }
 /* 图标外圈 */
 .mdui-radio-icon {
@@ -7026,7 +7083,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   width: 14px;
   height: 14px;
   content: ' ';
-  background-color: #ff4081;
+  background-color: #2196F3;
   border-radius: 14px;
   opacity: 0;
   -webkit-transition: all .3s cubic-bezier(.4, 0, .2, 1);
@@ -7034,32 +7091,30 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   -webkit-transform: scale(0);
           transform: scale(0);
 }
-/* 选中状态的图标 */
+/* 选中状思的图标 */
 .mdui-radio input[type="radio"]:checked + .mdui-radio-icon {
-  border-color: #ff4081;
+  border-color: #2196F3;
 }
 .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   opacity: 1;
   -webkit-transform: scale(.68);
           transform: scale(.68);
 }
-/* 禁用状态的图标 */
+/* 禝用状思的图标 */
 .mdui-radio input[type="radio"]:disabled + .mdui-radio-icon {
   border-color: rgba(0, 0, 0, .26) !important;
 }
-/* 禁用且选中状态的图标 */
+/* 禝用且选中状思的图标 */
 .mdui-radio input[type="radio"]:disabled:checked + .mdui-radio-icon:before {
   background-color: rgba(0, 0, 0, .26) !important;
 }
-/* 未选中、禁用时 按下的阴影 */
-.mdui-radio:active input[type="radio"] + .mdui-radio-icon,
-.mdui-radio input[type="radio"]:focus + .mdui-radio-icon {
+/* 未选中〝禝用时 按下的阴影 */
+.mdui-radio:active input[type="radio"] + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(0, 0, 0, .1);
           box-shadow: 0 0 0 15px rgba(0, 0, 0, .1);
 }
 /* 已选中时按下的阴影 */
-.mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
           box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
 }
@@ -7074,8 +7129,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-amber .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #ffd740;
 }
-.mdui-theme-accent-amber .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-amber .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-amber .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 215, 64, .16);
           box-shadow: 0 0 0 15px rgba(255, 215, 64, .16);
 }
@@ -7085,8 +7139,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-blue .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #448aff;
 }
-.mdui-theme-accent-blue .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-blue .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-blue .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(68, 138, 255, .16);
           box-shadow: 0 0 0 15px rgba(68, 138, 255, .16);
 }
@@ -7096,8 +7149,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-cyan .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #18ffff;
 }
-.mdui-theme-accent-cyan .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-cyan .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-cyan .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(24, 255, 255, .16);
           box-shadow: 0 0 0 15px rgba(24, 255, 255, .16);
 }
@@ -7107,8 +7159,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-deep-orange .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #ff6e40;
 }
-.mdui-theme-accent-deep-orange .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-deep-orange .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-deep-orange .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 110, 64, .16);
           box-shadow: 0 0 0 15px rgba(255, 110, 64, .16);
 }
@@ -7118,8 +7169,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-deep-purple .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #7c4dff;
 }
-.mdui-theme-accent-deep-purple .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-deep-purple .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-deep-purple .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(124, 77, 255, .16);
           box-shadow: 0 0 0 15px rgba(124, 77, 255, .16);
 }
@@ -7129,8 +7179,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-green .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #69f0ae;
 }
-.mdui-theme-accent-green .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-green .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-green .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(105, 240, 174, .16);
           box-shadow: 0 0 0 15px rgba(105, 240, 174, .16);
 }
@@ -7140,8 +7189,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-indigo .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #536dfe;
 }
-.mdui-theme-accent-indigo .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-indigo .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-indigo .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(83, 109, 254, .16);
           box-shadow: 0 0 0 15px rgba(83, 109, 254, .16);
 }
@@ -7151,8 +7199,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-light-blue .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #40c4ff;
 }
-.mdui-theme-accent-light-blue .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-light-blue .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-light-blue .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(64, 196, 255, .16);
           box-shadow: 0 0 0 15px rgba(64, 196, 255, .16);
 }
@@ -7162,8 +7209,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-light-green .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #b2ff59;
 }
-.mdui-theme-accent-light-green .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-light-green .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-light-green .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(178, 255, 89, .16);
           box-shadow: 0 0 0 15px rgba(178, 255, 89, .16);
 }
@@ -7173,8 +7219,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-lime .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #eeff41;
 }
-.mdui-theme-accent-lime .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-lime .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-lime .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(238, 255, 65, .16);
           box-shadow: 0 0 0 15px rgba(238, 255, 65, .16);
 }
@@ -7184,19 +7229,17 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-orange .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #ffab40;
 }
-.mdui-theme-accent-orange .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-orange .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-orange .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 171, 64, .16);
           box-shadow: 0 0 0 15px rgba(255, 171, 64, .16);
 }
 .mdui-theme-accent-pink .mdui-radio input[type="radio"]:checked + .mdui-radio-icon {
-  border-color: #ff4081;
+  border-color: #2196F3;
 }
 .mdui-theme-accent-pink .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
-  background-color: #ff4081;
+  background-color: #2196F3;
 }
-.mdui-theme-accent-pink .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-pink .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-pink .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
           box-shadow: 0 0 0 15px rgba(255, 64, 129, .16);
 }
@@ -7206,8 +7249,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-purple .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #e040fb;
 }
-.mdui-theme-accent-purple .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-purple .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-purple .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(224, 64, 251, .16);
           box-shadow: 0 0 0 15px rgba(224, 64, 251, .16);
 }
@@ -7217,8 +7259,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-red .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #ff5252;
 }
-.mdui-theme-accent-red .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-red .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-red .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 82, 82, .16);
           box-shadow: 0 0 0 15px rgba(255, 82, 82, .16);
 }
@@ -7228,8 +7269,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-teal .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #64ffda;
 }
-.mdui-theme-accent-teal .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-teal .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-teal .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(100, 255, 218, .16);
           box-shadow: 0 0 0 15px rgba(100, 255, 218, .16);
 }
@@ -7239,8 +7279,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-yellow .mdui-radio input[type="radio"]:checked + .mdui-radio-icon:before {
   background-color: #ff0;
 }
-.mdui-theme-accent-yellow .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon,
-.mdui-theme-accent-yellow .mdui-radio input[type="radio"]:focus:checked:not(:disabled) + .mdui-radio-icon {
+.mdui-theme-accent-yellow .mdui-radio:active input[type="radio"]:checked:not(:disabled) + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 0, .16);
           box-shadow: 0 0 0 15px rgba(255, 255, 0, .16);
 }
@@ -7258,14 +7297,13 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-layout-dark .mdui-radio input[type="radio"]:disabled:checked + .mdui-radio-icon:before {
   background-color: rgba(255, 255, 255, .3) !important;
 }
-.mdui-theme-layout-dark .mdui-radio:active input[type="radio"] + .mdui-radio-icon,
-.mdui-theme-layout-dark .mdui-radio input[type="radio"]:focus + .mdui-radio-icon {
+.mdui-theme-layout-dark .mdui-radio:active input[type="radio"] + .mdui-radio-icon {
   -webkit-box-shadow: 0 0 0 15px rgba(255, 255, 255, .1);
           box-shadow: 0 0 0 15px rgba(255, 255, 255, .1);
 }
 /**
  * =============================================================================
- * ************   Switch 单选框   ************
+ * ************   Switch 坕选框   ************
  * =============================================================================
  */
 .mdui-switch {
@@ -7283,9 +7321,9 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   width: 0;
   height: 0;
   overflow: hidden;
-  opacity: 0;
+  visibility: hidden;
 }
-/* 图标轨道 */
+/* 图标轨靓 */
 .mdui-switch-icon {
   position: relative;
   display: inline-block;
@@ -7314,27 +7352,25 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
           transition: box-shadow .14s cubic-bezier(.4, 0, .2, 1), background-color .3s cubic-bezier(.4, 0, .2, 1), left .3s cubic-bezier(.4, 0, .2, 1);
           transition: box-shadow .14s cubic-bezier(.4, 0, .2, 1), background-color .3s cubic-bezier(.4, 0, .2, 1), left .3s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .14s cubic-bezier(.4, 0, .2, 1);
 }
-/* 选中状态的图标 */
+/* 选中状思的图标 */
 .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon {
   background-color: rgba(255, 64, 129, .5);
 }
 .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   left: 20px;
-  background-color: #ff4081;
+  background-color: #2196F3;
 }
-/* 未选中时或禁用时 按下的阴影 */
-.mdui-switch:active input[type="checkbox"] + .mdui-switch-icon:before,
-.mdui-switch input[type="checkbox"]:focus + .mdui-switch-icon:before {
+/* 未选中时或禝用时 按下的阴影 */
+.mdui-switch:active input[type="checkbox"] + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(0, 0, 0, .1);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(0, 0, 0, .1);
 }
 /* 已选中时按下的阴影 */
-.mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 64, 129, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 64, 129, .16);
 }
-/* 禁用状态 */
+/* 禝用状思 */
 .mdui-switch input[type="checkbox"]:disabled + .mdui-switch-icon {
   background-color: rgba(0, 0, 0, .12) !important;
 }
@@ -7352,8 +7388,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-amber .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #ffd740;
 }
-.mdui-theme-accent-amber .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-amber .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-amber .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 215, 64, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 215, 64, .16);
 }
@@ -7363,8 +7398,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-blue .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #448aff;
 }
-.mdui-theme-accent-blue .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-blue .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-blue .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(68, 138, 255, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(68, 138, 255, .16);
 }
@@ -7374,8 +7408,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-cyan .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #18ffff;
 }
-.mdui-theme-accent-cyan .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-cyan .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-cyan .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(24, 255, 255, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(24, 255, 255, .16);
 }
@@ -7385,8 +7418,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-deep-orange .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #ff6e40;
 }
-.mdui-theme-accent-deep-orange .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-deep-orange .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-deep-orange .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 110, 64, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 110, 64, .16);
 }
@@ -7396,8 +7428,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-deep-purple .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #7c4dff;
 }
-.mdui-theme-accent-deep-purple .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-deep-purple .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-deep-purple .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(124, 77, 255, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(124, 77, 255, .16);
 }
@@ -7407,8 +7438,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-green .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #69f0ae;
 }
-.mdui-theme-accent-green .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-green .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-green .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(105, 240, 174, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(105, 240, 174, .16);
 }
@@ -7418,8 +7448,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-indigo .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #536dfe;
 }
-.mdui-theme-accent-indigo .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-indigo .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-indigo .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(83, 109, 254, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(83, 109, 254, .16);
 }
@@ -7429,8 +7458,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-light-blue .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #40c4ff;
 }
-.mdui-theme-accent-light-blue .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-light-blue .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-light-blue .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(64, 196, 255, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(64, 196, 255, .16);
 }
@@ -7440,8 +7468,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-light-green .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #b2ff59;
 }
-.mdui-theme-accent-light-green .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-light-green .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-light-green .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(178, 255, 89, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(178, 255, 89, .16);
 }
@@ -7451,8 +7478,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-lime .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #eeff41;
 }
-.mdui-theme-accent-lime .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-lime .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-lime .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(238, 255, 65, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(238, 255, 65, .16);
 }
@@ -7462,8 +7488,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-orange .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #ffab40;
 }
-.mdui-theme-accent-orange .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-orange .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-orange .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 171, 64, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 171, 64, .16);
 }
@@ -7471,10 +7496,9 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   background-color: rgba(255, 64, 129, .5);
 }
 .mdui-theme-accent-pink .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
-  background-color: #ff4081;
+  background-color: #2196F3;
 }
-.mdui-theme-accent-pink .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-pink .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-pink .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 64, 129, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 64, 129, .16);
 }
@@ -7484,8 +7508,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-purple .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #e040fb;
 }
-.mdui-theme-accent-purple .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-purple .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-purple .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(224, 64, 251, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(224, 64, 251, .16);
 }
@@ -7495,8 +7518,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-red .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #ff5252;
 }
-.mdui-theme-accent-red .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-red .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-red .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 82, 82, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 82, 82, .16);
 }
@@ -7506,8 +7528,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-teal .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #64ffda;
 }
-.mdui-theme-accent-teal .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-teal .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-teal .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(100, 255, 218, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(100, 255, 218, .16);
 }
@@ -7517,8 +7538,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-accent-yellow .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #ff0;
 }
-.mdui-theme-accent-yellow .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before,
-.mdui-theme-accent-yellow .mdui-switch input[type="checkbox"]:focus:checked:not(:disabled) + .mdui-switch-icon:before {
+.mdui-theme-accent-yellow .mdui-switch:active input[type="checkbox"]:checked:not(:disabled) + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 255, 0, .16);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 255, 0, .16);
 }
@@ -7629,8 +7649,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-theme-layout-dark.mdui-theme-accent-yellow .mdui-switch input[type="checkbox"]:checked + .mdui-switch-icon:before {
   background-color: #ffff8d;
 }
-.mdui-theme-layout-dark .mdui-switch:active input[type="checkbox"] + .mdui-switch-icon:before,
-.mdui-theme-layout-dark .mdui-switch input[type="checkbox"]:focus + .mdui-switch-icon:before {
+.mdui-theme-layout-dark .mdui-switch:active input[type="checkbox"] + .mdui-switch-icon:before {
   -webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 255, 255, .1);
           box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12), 0 0 0 15px rgba(255, 255, 255, .1);
 }
@@ -7681,7 +7700,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   height: 100%;
   content: ' ';
 }
-/* 轨道 */
+/* 轨靓 */
 .mdui-slider-track {
   right: 0;
 }
@@ -7695,7 +7714,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   left: 0;
 }
 .mdui-slider-fill:before {
-  background-color: #ff4081;
+  background-color: #2196F3;
 }
 /* 滑块 */
 .mdui-slider-thumb {
@@ -7706,8 +7725,8 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: -6px;
-  background-color: #ff4081;
-  border: 2px solid #ff4081;
+  background-color: #2196F3;
+  border: 2px solid #2196F3;
   border-radius: 50%;
   -webkit-transition: background .45s cubic-bezier(.4, 0, .2, 1), border-color .45s cubic-bezier(.4, 0, .2, 1), border-radius .2s cubic-bezier(.4, 0, .2, 1), -webkit-transform .2s cubic-bezier(.4, 0, .2, 1);
           transition: background .45s cubic-bezier(.4, 0, .2, 1), border-color .45s cubic-bezier(.4, 0, .2, 1), border-radius .2s cubic-bezier(.4, 0, .2, 1), -webkit-transform .2s cubic-bezier(.4, 0, .2, 1);
@@ -7801,11 +7820,11 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
   border: 2px solid #ffab40;
 }
 .mdui-theme-accent-pink .mdui-slider-fill:before {
-  background-color: #ff4081;
+  background-color: #2196F3;
 }
 .mdui-theme-accent-pink .mdui-slider-thumb {
-  background-color: #ff4081;
-  border: 2px solid #ff4081;
+  background-color: #2196F3;
+  border: 2px solid #2196F3;
 }
 .mdui-theme-accent-purple .mdui-slider-fill:before {
   background-color: #e040fb;
@@ -7837,10 +7856,10 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 }
 /**
  * =============================================================================
- * ============   Slider 的不同状态   ============
+ * ============   Slider 的丝坌状思   ============
  * =============================================================================
  */
-/* 鼠标按下状态 */
+/* 鼠标按下状思 */
 .mdui-slider-focus .mdui-slider-track:before {
   background-color: #9e9e9e;
 }
@@ -7857,7 +7876,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
 .mdui-slider-zero.mdui-slider-focus .mdui-slider-thumb {
   border-color: #9e9e9e;
 }
-/* 禁用状态 */
+/* 禝用状思 */
 .mdui-slider-disabled input[type="range"] {
   cursor: default;
 }
@@ -7963,7 +7982,7 @@ th.mdui-table-cell-checkbox .mdui-checkbox {
  * ************   Button 按钮   ************
  * =============================================================================
  */
-/* 默认为 Flat 扁平按钮 */
+/* 默认为 Flat 扝平按钮 */
 .mdui-btn,
 .mdui-fab {
   position: relative;
@@ -8057,7 +8076,7 @@ input.mdui-btn[type="submit"] {
   -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
           box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
 }
-/* 禁用按钮 */
+/* 禝用按钮 */
 .mdui-btn[disabled],
 .mdui-fab[disabled],
 .mdui-btn[disabled]:hover,
@@ -8083,7 +8102,7 @@ input.mdui-btn[type="submit"] {
 .mdui-fab[disabled]:focus .mdui-icon {
   color: rgba(0, 0, 0, .26) !important;
 }
-/* 禁用状态浮动按钮和浮动操作按钮 */
+/* 禝用状思浮动按钮和浮动擝作按钮 */
 .mdui-btn-raised[disabled],
 .mdui-fab[disabled],
 .mdui-btn-raised[disabled]:hover,
@@ -8234,10 +8253,10 @@ input.mdui-btn[type="submit"] {
 }
 /**
  * =============================================================================
- * ************   Fab 浮动操作按钮   ************
+ * ************   Fab 浮动擝作按钮   ************
  * =============================================================================
  */
-/* 浮动操作按钮 */
+/* 浮动擝作按钮 */
 .mdui-fab {
   width: 56px;
   min-width: 56px;
@@ -8268,7 +8287,7 @@ input.mdui-btn[type="submit"] {
   margin-left: 16px;
   line-height: 24px;
 }
-/* mini 型浮动操作按钮 */
+/* mini 型浮动擝作按钮 */
 .mdui-fab-mini {
   width: 40px;
   min-width: 40px;
@@ -8278,30 +8297,29 @@ input.mdui-btn[type="submit"] {
   margin-top: 8px;
   margin-left: 8px;
 }
-/* 固定到右下角的 FAB 按钮 */
+/* 固定到坳下角的 FAB 按钮 */
 .mdui-fab-fixed,
 .mdui-fab-wrapper {
   position: fixed !important;
-  /* 手机平板上距离屏幕右下角 16px */
+  /* 手机平板上距离屝幕坳下角 16px */
   right: 16px;
   bottom: 16px;
 }
 @media (min-width: 1024px) {
   .mdui-fab-fixed,
   .mdui-fab-wrapper {
-    /* 电脑上距离屏幕右下角 24px */
+    /* 电脑上距离屝幕坳下角 24px */
     right: 24px;
     bottom: 24px;
   }
 }
-/* 含菜单的浮动操作按钮 */
+/* 坫蝜坕的浮动擝作按钮 */
 .mdui-fab-wrapper {
   position: relative;
   z-index: 4000;
   width: 56px;
   height: 56px;
   padding-top: 8px;
-  text-align: center;
 }
 .mdui-fab-wrapper > .mdui-fab .mdui-icon:not(.mdui-fab-opened) {
   opacity: 1;
@@ -8329,9 +8347,6 @@ input.mdui-btn[type="submit"] {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
-.mdui-fab-wrapper > .mdui-fab-mini {
-  margin-top: 8px;
-}
 .mdui-fab-wrapper .mdui-fab-dial {
   position: absolute;
   right: 0;
@@ -8356,7 +8371,7 @@ input.mdui-btn[type="submit"] {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-/* 添加类 .mdui-fab-hide 以动画的形式隐藏按钮 */
+/* 添加类 .mdui-fab-hide 以动画的形弝隝藝按钮 */
 .mdui-fab,
 .mdui-fab-mini,
 .mdui-fab-wrapper {
@@ -8423,7 +8438,7 @@ input.mdui-btn[type="submit"] {
 .mdui-select-position-top {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%3E%3Cpath%20d%3D%22m-0.00254%2C2.5l5%2C5l5%2C-5l-10%2C0z%22%20fill%3D%22%23000000%22%20opacity%3D%220.54%22%20transform%3D%22rotate(-180%205%2C5)%22%2F%3E%3C%2Fsvg%3E%0A");
 }
-/* 底部和顶部菜单的样式 */
+/* 底部和顶部蝜坕的样弝 */
 .mdui-select-open.mdui-select-position-top,
 .mdui-select-open.mdui-select-position-bottom {
   z-index: 99999;
@@ -8458,7 +8473,7 @@ input.mdui-btn[type="submit"] {
   -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 9px 9px 1px rgba(0, 0, 0, .14), 0 8px 8px 2px rgba(0, 0, 0, .06);
           box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 9px 9px 1px rgba(0, 0, 0, .14), 0 8px 8px 2px rgba(0, 0, 0, .06);
 }
-/* 当前选中项文本 */
+/* 当剝选中项文本 */
 .mdui-select-selected {
   position: absolute;
   top: 50%;
@@ -8480,7 +8495,7 @@ input.mdui-btn[type="submit"] {
 .mdui-select-open.mdui-select-position-auto .mdui-select-selected {
   visibility: hidden;
 }
-/* 菜单 */
+/* 蝜坕 */
 .mdui-select-menu {
   position: relative;
   z-index: 99999;
@@ -8527,7 +8542,7 @@ input.mdui-btn[type="submit"] {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
-/* 菜单项 */
+/* 蝜坕项 */
 .mdui-select-menu-item {
   height: 48px;
   padding: 0 16px;
@@ -8554,7 +8569,7 @@ input.mdui-btn[type="submit"] {
   background-color: inherit !important;
 }
 .mdui-select-menu-item[selected] {
-  color: #ff4081;
+  color: #2196F3;
 }
 /* 原生 select 组件 */
 select.mdui-select {
@@ -8648,7 +8663,7 @@ select.mdui-select[multiple] option:last-child {
   color: #ff9800;
 }
 .mdui-theme-accent-pink .mdui-select-menu-item[selected] {
-  color: #e91e63;
+  color: #2196f3;
 }
 .mdui-theme-accent-purple .mdui-select-menu-item[selected] {
   color: #9c27b0;
@@ -8769,7 +8784,7 @@ select.mdui-select[multiple] option:last-child {
   padding-right: 8px;
   padding-left: 8px;
 }
-/* 取消列间距 */
+/* 坖消列间距 */
 .mdui-row-gapless .mdui-col,
 .mdui-row-gapless [class*="mdui-col-xs-"],
 .mdui-row-gapless [class*="mdui-col-sm-"],
@@ -9454,7 +9469,7 @@ select.mdui-select[multiple] option:last-child {
 }
 /**
  * =============================================================================
- * ************   Toolbar 工具栏   ************
+ * ************   Toolbar 工具栝   ************
  * =============================================================================
  */
 .mdui-toolbar {
@@ -9555,11 +9570,12 @@ select.mdui-select[multiple] option:last-child {
 }
 /**
  * =============================================================================
- * ************   Appbar 应用栏   ************
+ * ************   Appbar 应用栝   ************
  * =============================================================================
  */
 .mdui-appbar {
   z-index: 1000;
+  width: 100%;
   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
           box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
 }
@@ -9569,27 +9585,8 @@ select.mdui-select[multiple] option:last-child {
   top: 0;
   right: 0;
   left: 0;
-  -webkit-transition-timing-function: cubic-bezier(0, 0, .2, 1);
-          transition-timing-function: cubic-bezier(0, 0, .2, 1);
-  -webkit-transition-duration: .3s;
-          transition-duration: .3s;
-  -webkit-transition-property: left, right;
-          transition-property: left, right;
-
-  will-change: left, right;
 }
-/* 左侧留出抽屉栏的距离 */
-@media (min-width: 1024px) {
-  .mdui-drawer-body-left .mdui-appbar-inset.mdui-appbar-fixed {
-    left: 240px;
-  }
-}
-@media (min-width: 1024px) {
-  .mdui-drawer-body-right .mdui-appbar-inset.mdui-appbar-fixed {
-    right: 240px;
-  }
-}
-/* 含工具栏 */
+/* 坫工具栝 */
 .mdui-appbar-with-toolbar {
   padding-top: 56px;
 }
@@ -9603,15 +9600,15 @@ select.mdui-select[multiple] option:last-child {
     padding-top: 48px;
   }
 }
-/* 含 Tab */
+/* 坫 Tab */
 .mdui-appbar-with-tab {
   padding-top: 48px;
 }
-/* 含大 Tab  */
+/* 坫大 Tab  */
 .mdui-appbar-with-tab-larger {
   padding-top: 72px;
 }
-/* 含工具栏和 Tab */
+/* 坫工具栝和 Tab */
 .mdui-appbar-with-toolbar.mdui-appbar-with-tab {
   padding-top: 104px;
 }
@@ -9625,7 +9622,7 @@ select.mdui-select[multiple] option:last-child {
     padding-top: 96px;
   }
 }
-/* 含工具栏和大 Tab */
+/* 坫工具栝和大 Tab */
 .mdui-appbar-with-toolbar.mdui-appbar-with-tab-larger {
   padding-top: 128px;
 }
@@ -9650,10 +9647,10 @@ select.mdui-select[multiple] option:last-child {
 }
 /**
  * =============================================================================
- * ************   Card 卡片   ************
+ * ************   Card 坡片   ************
  * =============================================================================
  */
-/* 卡片 */
+/* 坡片 */
 .mdui-card {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -9666,7 +9663,7 @@ select.mdui-select[multiple] option:last-child {
           box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 /**
- * ===================== 头部，包含头像、标题、副标题
+ * ===================== 头部，包坫头僝〝标题〝副标题
  */
 .mdui-card-header {
   position: relative;
@@ -9675,14 +9672,14 @@ select.mdui-select[multiple] option:last-child {
           box-sizing: border-box;
   padding: 16px;
 }
-/* 卡片头部头像 */
+/* 坡片头部头僝 */
 .mdui-card-header-avatar {
   float: left;
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-/* 卡片头部标题 */
+/* 坡片头部标题 */
 .mdui-card-header-title {
   display: block;
   margin-left: 52px;
@@ -9694,7 +9691,7 @@ select.mdui-select[multiple] option:last-child {
   white-space: nowrap;
   opacity: .87;
 }
-/* 卡片头部副标题 */
+/* 坡片头部副标题 */
 .mdui-card-header-subtitle {
   display: block;
   margin-left: 52px;
@@ -9737,7 +9734,7 @@ select.mdui-select[multiple] option:last-child {
   line-height: 24px;
 }
 /**
- * ============================ 卡片菜单
+ * ============================ 坡片蝜坕
  */
 .mdui-card-menu {
   position: absolute;
@@ -9785,7 +9782,7 @@ select.mdui-select[multiple] option:last-child {
   height: 36px;
   margin: 0 8px;
 }
-/* 使按钮竖向排列 */
+/* 使按钮竖坑排列 */
 .mdui-card-actions-stacked .mdui-btn {
   display: block;
   margin: 0 0 4px 0;
@@ -9825,11 +9822,11 @@ select.mdui-select[multiple] option:last-child {
   top: 0;
   bottom: auto;
 }
-/* 覆盖层透明 */
+/* 覆盖层逝明 */
 .mdui-card-media-covered-transparent {
   background: transparent;
 }
-/* 覆盖层渐变 */
+/* 覆盖层渝坘 */
 .mdui-card-media-covered-gradient {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .26)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(to top, rgba(0, 0, 0, .26), rgba(0, 0, 0, 0));
@@ -9852,9 +9849,9 @@ select.mdui-select[multiple] option:last-child {
  * ************   Tab   ************
  * =============================================================================
  *
- * 在手机上选项卡始终平分或可滚动，在平板以上的设备上默认左对齐，可以选择居中对齐，或全宽等分
+ * 在手机上选项坡始终平分或坯滚动，在平板以上的设备上默认左对齝，坯以选择居中对齝，或全宽等分
  */
-/* 选项卡，默认的选项卡为全宽 */
+/* 选项坡，默认的选项坡为全宽 */
 .mdui-tab {
   position: relative;
   display: -webkit-box;
@@ -9965,7 +9962,7 @@ select.mdui-select[multiple] option:last-child {
 .mdui-tab .mdui-tab-active .mdui-icon {
   opacity: 1;
 }
-/* 选项卡居中 */
+/* 选项坡居中 */
 @media (min-width: 600px) {
   .mdui-tab-centered:before {
     content: ' ';
@@ -9990,7 +9987,7 @@ select.mdui-select[multiple] option:last-child {
             flex: none;
   }
 }
-/* 选项卡始终全宽等分 */
+/* 选项坡始终全宽等分 */
 .mdui-tab-full-width a {
   max-width: none;
 
@@ -9999,7 +9996,7 @@ select.mdui-select[multiple] option:last-child {
       -ms-flex: 1;
           flex: 1;
 }
-/* 可横向滚动的选项卡 */
+/* 坯横坑滚动的选项坡 */
 .mdui-tab-scrollable {
   padding-left: 56px;
 }
@@ -10115,10 +10112,10 @@ select.mdui-select[multiple] option:last-child {
   background-color: #ff9800;
 }
 .mdui-theme-primary-pink .mdui-tab .mdui-tab-active {
-  color: #e91e63;
+  color: #2196f3;
 }
 .mdui-theme-primary-pink .mdui-tab-indicator {
-  background-color: #e91e63;
+  background-color: #2196f3;
 }
 .mdui-theme-primary-purple .mdui-tab .mdui-tab-active {
   color: #9c27b0;
@@ -10144,7 +10141,7 @@ select.mdui-select[multiple] option:last-child {
 .mdui-theme-primary-yellow .mdui-tab-indicator {
   background-color: #ffeb3b;
 }
-/* 带背景色的选项卡 */
+/* 带背景色的选项坡 */
 .mdui-tab[class*="mdui-color-"]:not(.mdui-color-white) .mdui-tab-active {
   color: inherit;
 }
@@ -10219,7 +10216,7 @@ select.mdui-select[multiple] option:last-child {
   padding-right: 2px;
   padding-left: 2px;
 }
-/* 单元格 */
+/* 坕元格 */
 .mdui-grid-tile {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -10231,7 +10228,7 @@ select.mdui-select[multiple] option:last-child {
   display: block;
   width: 100%;
 }
-/* 操作栏 */
+/* 擝作栝 */
 .mdui-grid-tile-actions {
   position: absolute;
   right: 0;
@@ -10257,7 +10254,7 @@ select.mdui-select[multiple] option:last-child {
 .mdui-grid-tile-actions .mdui-icon {
   color: #fff;
 }
-/* 操作栏内的文本 */
+/* 擝作栝内的文本 */
 .mdui-grid-tile-text {
   overflow: hidden;
 
@@ -10292,7 +10289,7 @@ select.mdui-select[multiple] option:last-child {
   margin-right: 8px;
   font-size: 18px;
 }
-/* 操作栏内的按钮 */
+/* 擝作栝内的按钮 */
 .mdui-grid-tile-buttons {
   margin: -8px;
   white-space: nowrap;
@@ -10314,16 +10311,16 @@ select.mdui-select[multiple] option:last-child {
 .mdui-grid-tile-buttons + .mdui-grid-tile-text {
   margin-left: 16px;
 }
-/* 操作栏位于顶部 */
+/* 擝作栝佝于顶部 */
 .mdui-grid-tile-actions-top {
   top: 0;
   bottom: auto;
 }
-/* 操作栏背景透明 */
+/* 擝作栝背景逝明 */
 .mdui-grid-tile-actions-transparent {
   background: transparent;
 }
-/* 操作栏背景渐变 */
+/* 擝作栝背景渝坘 */
 .mdui-grid-tile-actions-gradient {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .26)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(to top, rgba(0, 0, 0, .26), rgba(0, 0, 0, 0));
@@ -10420,7 +10417,7 @@ select.mdui-select[multiple] option:last-child {
   height: 24px;
   color: rgba(0, 0, 0, .54);
 }
-/* 列表项头像 */
+/* 列表项头僝 */
 .mdui-list-item-avatar {
   min-width: 40px;
   max-width: 40px;
@@ -10454,12 +10451,12 @@ select.mdui-select[multiple] option:last-child {
 /* 列表项内容的副内容 */
 .mdui-list-item-text {
   font-size: 14px;
-  opacity: .54;
+  color: rgba(0, 0, 0, .54);
 }
 .mdui-list-item-title ~ .mdui-list-item-text {
   margin-top: 4px;
 }
-/* 激活状态的列表项 */
+/* 激活状思的列表项 */
 .mdui-list-item-active {
   font-weight: 700;
   background-color: rgba(0, 0, 0, .08);
@@ -10470,7 +10467,7 @@ select.mdui-select[multiple] option:last-child {
 .mdui-list-item-active .mdui-list-item-text {
   font-weight: 400;
 }
-/* 限制文本高度 */
+/* 陝制文本高度 */
 .mdui-list-item-one-line,
 .mdui-list-item-two-line,
 .mdui-list-item-three-line {
@@ -10603,7 +10600,7 @@ select.mdui-select[multiple] option:last-child {
   color: #fff;
 }
 .mdui-theme-layout-dark .mdui-list-item-text {
-  opacity: .7;
+  color: rgba(255, 255, 255, .7);
 }
 .mdui-theme-layout-dark .mdui-list-item-active {
   background-color: rgba(255, 255, 255, .08);
@@ -10621,10 +10618,10 @@ select.mdui-select[multiple] option:last-child {
 }
 /**
  * =============================================================================
- * ************   Drawer 抽屉栏导航   ************
+ * ************   Drawer 抽屉栝导航   ************
  * =============================================================================
  */
-/* DOM 加载完后再添加 transition */
+/* DOM 加载完坎冝添加 transition */
 body.mdui-loaded {
   -webkit-transition: padding .3s cubic-bezier(0, 0, .2, 1);
           transition: padding .3s cubic-bezier(0, 0, .2, 1);
@@ -10633,7 +10630,7 @@ body.mdui-loaded .mdui-drawer {
   -webkit-transition: all .3s cubic-bezier(0, 0, .2, 1);
           transition: all .3s cubic-bezier(0, 0, .2, 1);
 }
-/* 抽屉栏外层，默认出现在左侧且隐藏 */
+/* 抽屉栝外层，默认出现在左侧且隝藝 */
 .mdui-drawer {
   position: fixed;
   top: 0;
@@ -10674,29 +10671,29 @@ body.mdui-loaded .mdui-drawer {
             box-shadow: none !important;
   }
 }
-/* 出现在右侧的抽屉栏 */
+/* 出现在坳侧的抽屉栝 */
 .mdui-drawer-right {
   right: 0;
   left: auto;
 }
-/* 平板上的样式 */
+/* 平板上的样弝 */
 @media (max-width: 1023px) {
   .mdui-drawer {
     /* 始终有背景和阴影 */
     background-color: #fff;
     -webkit-box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
             box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
-    /* 默认隐藏 */
+    /* 默认隝藝 */
     -webkit-transform: translateX(-330px);
             transform: translateX(-330px);
   }
   .mdui-drawer-right {
-    /* 右侧 drawer 也默认隐藏 */
+    /* 坳侧 drawer 也默认隝藝 */
     -webkit-transform: translateX(330px);
             transform: translateX(330px);
   }
 }
-/* 手机上的样式 */
+/* 手机上的样弝 */
 @media (max-width: 599px) {
   .mdui-drawer {
     -webkit-transform: translateX(-290px);
@@ -10707,7 +10704,7 @@ body.mdui-loaded .mdui-drawer {
             transform: translateX(290px);
   }
 }
-/* 强制隐藏抽屉栏 */
+/* 强制隝藝抽屉栝 */
 .mdui-drawer-close {
   -webkit-transform: translateX(-290px);
           transform: translateX(-290px);
@@ -10736,14 +10733,14 @@ body.mdui-loaded .mdui-drawer {
             transform: translateX(250px);
   }
 }
-/* 强制显示抽屉栏 */
+/* 强制显示抽屉栝 */
 .mdui-drawer-open {
   -webkit-transform: translateX(0) !important;
           transform: translateX(0) !important;
 }
-/* PC 上的样式 */
+/* PC 上的样弝 */
 @media (min-width: 1024px) {
-  /* 使该类所在元素获得 padding-left 或 padding-right，避免被抽屉栏覆盖住页面 */
+  /* 使该类所在元素获得 padding-left 或 padding-right，靿兝被抽屉栝覆盖佝页面 */
   .mdui-drawer-body-left {
     padding-left: 240px;
   }
@@ -10767,12 +10764,12 @@ body.mdui-loaded .mdui-drawer {
     top: 136px;
   }
 }
-/* 抽屉栏不是透明时添加阴影 */
+/* 抽屉栝丝是逝明时添加阴影 */
 .mdui-drawer[class*="mdui-color-"]:not(.mdui-color-transparent) {
   -webkit-box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
           box-shadow: 0 8px 10px -5px rgba(0, 0, 0, .2), 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12);
 }
-/* 抽屉栏 100% 高度，覆盖在导航栏上面 */
+/* 抽屉栝 100% 高度，覆盖在导航栝上面 */
 .mdui-drawer-full-height {
   top: 0 !important;
 }
@@ -10788,7 +10785,7 @@ body.mdui-loaded .mdui-drawer {
 }
 /**
  * =============================================================================
- * ************   Dialog 提示框   ************
+ * ************   Dialog 杝示框   ************
  * =============================================================================
  */
 .mdui-dialog {
@@ -10834,13 +10831,13 @@ body.mdui-loaded .mdui-drawer {
     max-height: 80%;
   }
 }
-/* 打开提示框 */
+/* 打开杝示框 */
 .mdui-dialog-open {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-/* 提示框标题 */
+/* 杝示框标题 */
 .mdui-dialog-title {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10853,7 +10850,7 @@ body.mdui-loaded .mdui-drawer {
 .mdui-dialog > .mdui-dialog-title {
   padding: 24px 24px 20px 24px;
 }
-/* 提示框内容 */
+/* 杝示框内容 */
 .mdui-dialog-content {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10864,14 +10861,14 @@ body.mdui-loaded .mdui-drawer {
   line-height: 1.5;
   color: rgba(0, 0, 0, .7);
 }
-/* 标题随内容滚动 */
+/* 标题隝内容滚动 */
 .mdui-dialog-content > .mdui-dialog-title {
   padding-bottom: 20px;
 }
 .mdui-dialog-title + .mdui-dialog-content {
   padding-top: 0;
 }
-/* 提示框底部按钮 */
+/* 杝示框底部按钮 */
 .mdui-dialog-actions {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -10881,17 +10878,17 @@ body.mdui-loaded .mdui-drawer {
 .mdui-dialog-actions .mdui-btn {
   min-width: 64px;
   margin-left: 8px;
-  color: #e91e63;
+  color: #2196f3;
 }
 .mdui-dialog-actions .mdui-btn:first-child {
   margin-left: 0;
 }
-/* 底部按钮滚随内容动 */
+/* 底部按钮滚隝内容动 */
 .mdui-dialog-content > .mdui-dialog-actions {
   padding-top: 32px;
   margin: 0 -24px -24px -24px;
 }
-/* 使提示框底部按钮竖排 */
+/* 使杝示框底部按钮竖排 */
 .mdui-dialog-actions-stacked {
   padding: 8px 0 8px 0;
 }
@@ -10942,7 +10939,7 @@ body.mdui-loaded .mdui-drawer {
   color: #ff9800;
 }
 .mdui-theme-accent-pink .mdui-dialog-actions .mdui-btn {
-  color: #e91e63;
+  color: #2196f3;
 }
 .mdui-theme-accent-purple .mdui-dialog-actions .mdui-btn {
   color: #9c27b0;
@@ -11116,7 +11113,7 @@ body.mdui-loaded .mdui-drawer {
 }
 /**
  * =============================================================================
- * ************   Tooltip 工具提示   ************
+ * ************   Tooltip 工具杝示   ************
  * =============================================================================
  */
 .mdui-tooltip {
@@ -11158,7 +11155,7 @@ body.mdui-loaded .mdui-drawer {
     line-height: 18px;
   }
 }
-/* 显示工具提示 */
+/* 显示工具杝示 */
 .mdui-tooltip-open {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -11215,7 +11212,7 @@ body.mdui-loaded .mdui-drawer {
           transition:         transform .3s cubic-bezier(.4, 0, .2, 1);
           transition:         transform .3s cubic-bezier(.4, 0, .2, 1), -webkit-transform .3s cubic-bezier(.4, 0, .2, 1);
 }
-/* 位置 */
+/* 佝置 */
 .mdui-snackbar-bottom,
 .mdui-snackbar-left-bottom,
 .mdui-snackbar-right-bottom {
@@ -11425,7 +11422,7 @@ body.mdui-loaded .mdui-drawer {
 }
 /**
  * =============================================================================
- * ************   Bottom navigation 底部导航栏   ************
+ * ************   Bottom navigation 底部导航栝   ************
  * =============================================================================
  */
 .mdui-bottom-nav {
@@ -11530,7 +11527,7 @@ body.mdui-loaded .mdui-drawer {
 .mdui-bottom-nav a.mdui-bottom-nav-active .mdui-icon {
   opacity: 1;
 }
-/* 只在激活时显示文本 */
+/* 坪在激活时显示文本 */
 .mdui-bottom-nav-text-auto a {
   min-width: 32px;
   padding-right: 0;
@@ -11621,7 +11618,7 @@ body.mdui-loaded .mdui-drawer {
   color: #ff9800;
 }
 .mdui-theme-primary-pink .mdui-bottom-nav a.mdui-bottom-nav-active {
-  color: #e91e63;
+  color: #2196f3;
 }
 .mdui-theme-primary-purple .mdui-bottom-nav a.mdui-bottom-nav-active {
   color: #9c27b0;
@@ -11635,7 +11632,7 @@ body.mdui-loaded .mdui-drawer {
 .mdui-theme-primary-yellow .mdui-bottom-nav a.mdui-bottom-nav-active {
   color: #ffeb3b;
 }
-/* 带背景色的底部导航栏 */
+/* 带背景色的底部导航栝 */
 .mdui-bottom-nav[class*="mdui-color-"] .mdui-bottom-nav-active {
   color: inherit !important;
 }
@@ -11664,7 +11661,7 @@ body.mdui-loaded .mdui-drawer {
   -webkit-transition: width .3s linear;
           transition: width .3s linear;
 }
-/* 不确定进度的线性进度条 */
+/* 丝确定进度的线性进度条 */
 .mdui-progress-indeterminate {
   background-color: #3f51b5;
 }
@@ -11864,7 +11861,7 @@ body.mdui-loaded .mdui-drawer {
 }
 .mdui-theme-primary-pink .mdui-progress-determinate,
 .mdui-theme-primary-pink .mdui-progress-indeterminate {
-  background-color: #e91e63;
+  background-color: #2196f3;
 }
 .mdui-theme-primary-purple .mdui-progress {
   background-color: rgba(156, 39, 176, .2);
@@ -12325,7 +12322,7 @@ body.mdui-loaded .mdui-drawer {
   border-color: #ff9800;
 }
 .mdui-theme-primary-pink .mdui-spinner-layer {
-  border-color: #e91e63;
+  border-color: #2196f3;
 }
 .mdui-theme-primary-purple .mdui-spinner-layer {
   border-color: #9c27b0;
@@ -12341,10 +12338,10 @@ body.mdui-loaded .mdui-drawer {
 }
 /**
  * =============================================================================
- * ************   Expansion panel 可扩展面板   ************
+ * ************   Expansion panel 坯扩展面板   ************
  * =============================================================================
  */
-/* 可扩展面板 */
+/* 坯扩展面板 */
 .mdui-panel {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -12472,7 +12469,7 @@ body.mdui-loaded .mdui-drawer {
 .mdui-panel-item-body:after {
   height: 16px;
 }
-/* 面板项操作栏 */
+/* 面板项擝作栝 */
 .mdui-panel-item-actions {
   display: block;
   width: 100%;
@@ -12505,7 +12502,7 @@ body.mdui-loaded .mdui-drawer {
   margin-right: -16px;
   margin-left: -16px;
 }
-/* 打开状态的面板项 */
+/* 打开状思的面板项 */
 .mdui-panel-item-open {
   height: auto;
   margin-top: 16px;
@@ -12549,10 +12546,10 @@ body.mdui-loaded .mdui-drawer {
 }
 /**
  * =============================================================================
- * ************   Menu 菜单   ************
+ * ************   Menu 蝜坕   ************
  * =============================================================================
  */
-/* 菜单 */
+/* 蝜坕 */
 .mdui-menu {
   position: fixed;
   z-index: 99999;
@@ -12590,21 +12587,21 @@ body.mdui-loaded .mdui-drawer {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-/* 打开状态的菜单 */
+/* 打开状思的蝜坕 */
 .mdui-menu-open {
   visibility: visible;
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-/* 关闭中的菜单 */
+/* 关闭中的蝜坕 */
 .mdui-menu-closing {
   visibility: visible;
   opacity: 0;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-/* 菜单项 */
+/* 蝜坕项 */
 .mdui-menu-item {
   position: relative;
 }
@@ -12642,11 +12639,11 @@ body.mdui-loaded .mdui-drawer {
 .mdui-menu-item[disabled] > a .mdui-icon {
   color: rgba(0, 0, 0, .26);
 }
-/* 激活状态的菜单项 */
+/* 激活状思的蝜坕项 */
 .mdui-menu-item-active {
   background-color: #eee;
 }
-/* 菜单中的图标 */
+/* 蝜坕中的图标 */
 .mdui-menu-item-icon {
   display: inline-block;
   width: 40px;
@@ -12655,11 +12652,11 @@ body.mdui-loaded .mdui-drawer {
   padding-right: 16px;
   color: rgba(0, 0, 0, .54);
 }
-/* 菜单中的辅助文本或图标 */
+/* 蝜坕中的辅助文本或图标 */
 .mdui-menu-item-helper {
   float: right;
 }
-/* 有子菜单的条目的图标 */
+/* 有孝蝜坕的条目的图标 */
 .mdui-menu-item-more {
   float: right;
   width: 24px;
@@ -12667,7 +12664,7 @@ body.mdui-loaded .mdui-drawer {
   margin: 4px 0;
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%20opacity%3D%220.54%22%20transform%3D%22rotate(-90%2012%2C12.5)%22%20fill%3D%22%23000000%22%2F%3E%3C%2Fsvg%3E%0A");
 }
-/* 级联菜单 */
+/* 级蝔蝜坕 */
 .mdui-menu-cascade {
   width: 320px;
   padding: 16px 0;
@@ -12705,4 +12702,9 @@ body.mdui-loaded .mdui-drawer {
 }
 .mdui-theme-layout-dark .mdui-menu-item-more {
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%20transform%3D%22rotate(-90%2012%2C12.5)%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E%0A");
+}
+
+/* DEFINE */
+html {
+  font-family: Roboto, '思溝黑体', 'SourceHanSans', '微软雅黑', 'Microsoft Yahei', 'Microsoft Yahei UI', '苹方', -windows-system, -apple-system, system, SystemFont, sans-serif
 }

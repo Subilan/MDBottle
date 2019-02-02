@@ -80,9 +80,9 @@ if ($type == 'getpage') {
                         if ($val !== '') {
                             $k = file_get_contents('./../t/posts.html');
                             require './../p/' . $val . '.php';
-                            $k = preg_replace("/\t|\[index\]/", '>', $k);
+                            $k = preg_replace("/\t|\[index\]/", '<b>></b>', $k);
                             $k = preg_replace("/\t|\[title\]/", $ptitle, $k);
-                            $k = preg_replace("/\t|\[date\]/", '[置顶]', $k);
+                            $k = preg_replace("/\t|\[date\]/", '<div class="mdui-color-blue mdui-img-rounded mdui-shadow-2" style="display: inline-block;"><span style="color: white;">&nbsp;&nbsp;置顶&nbsp;&nbsp;</span></div>', $k);
                             $k = preg_replace("/\t|\[link\]/", '#!' . $val, $k);
                             $poststr = $poststr . $k;
                         }
@@ -113,7 +113,7 @@ if ($type == 'getpage') {
                                 if ($ptype == 'post') {
                                     $tp = preg_replace("/\t|\[date\]/", turndate($val), $tp);
                                 } else if ($ptype == 'page') {
-                                    $tp = preg_replace("/\t|\[date\]/", '[页面]', $tp);
+                                    $tp = preg_replace("/\t|\[date\]/", '<div class="mdui-color-blue mdui-img-rounded mdui-shadow-2" style="display: inline-block;"><span style="color: white;">&nbsp;&nbsp;页面&nbsp;&nbsp;</span></div>', $tp);
                                 }
                                 $tp = preg_replace("/\t|\[link\]/", '#!' . $key, $tp);
                                 $poststr = $poststr . $tp;
@@ -121,17 +121,17 @@ if ($type == 'getpage') {
                             }
                         }
                         if (empty($poststr)) {
-                            $poststr = '<center><h3 style=\'color:#AAA;\'>这里没有东西哦~</h3></center>';
+                            $poststr = '<center><h2 style=\'color:grey;\'>这里没有东西哦~</h3></center>';
                         }
                         $c = preg_replace("/\t|\[posts\]/", $poststr, $c); /*替换文章html*/
                     } else {
                         $result['result'] = 'notok';
-                        $result['msg'] = '这里没有任何文章呢O_o.';
+                        $result['msg'] = '这里没有任何文章呢O_o';
                     }
                     $result['allp'] = $clipnum;
                 } else {
                     $result['result'] = 'notok';
-                    $result['msg'] = '你还没有任何文章呢.';
+                    $result['msg'] = '你还没有任何文章呢O_o';
                 }
             } else if (stripos($page, 'tag') !== false) { /*生成标签列表*/
                 if (file_exists('./../p/index.php')) {
@@ -157,7 +157,7 @@ if ($type == 'getpage') {
                             $ia = file_get_contents('./../t/tags.html');
                             $ia = preg_replace("/\t|\[index\]/", $ids . '.', $ia);
                             $ia = preg_replace("/\t|\[tag\]/", $k, $ia);
-                            $ia = preg_replace("/\t|\[num\]/", $t . '篇文章', $ia);
+                            $ia = preg_replace("/\t|\[num\]/", $t . '&nbsp;篇文章', $ia);
                             $ia = preg_replace("/\t|\[link\]/", '#tag/' . $k, $ia);
                             $str = $str . $ia;
                             $ids+= 1;
@@ -181,7 +181,7 @@ if ($type == 'getpage') {
                                     if ($ptype == 'post') {
                                         $tp = preg_replace("/\t|\[date\]/", turndate($pdat), $tp);
                                     } else if ($ptype == 'page') {
-                                        $tp = preg_replace("/\t|\[date\]/", '[页面]', $tp);
+                                        $tp = preg_replace("/\t|\[date\]/", '<div class="mdui-color-blue mdui-img-rounded mdui-shadow-2" style="display: inline-block;"><span style="color: white;">&nbsp;&nbsp;页面&nbsp;&nbsp;</span></div>', $tp);
                                     }
                                     $tp = preg_replace("/\t|\[link\]/", '#!' . $key, $tp);
                                     $poststr = $poststr . $tp;
@@ -193,7 +193,7 @@ if ($type == 'getpage') {
                             $poststr = '<center><h4 style=\'color:#AAA;\'>箱子里翻不出来这个标签诶</h4></center>';
                         }
                         $c = preg_replace("/\t|\[tags\]/", $poststr, $c); /*替换标签页面html*/
-                        $c = preg_replace("/\t|\标签页/", '标签：' . $rt, $c); /*替换标签头html*/
+                        $c = preg_replace("/\t|\标签页/", '<h1 style="display: inline"><b>TAG: ' . $rt . '</b></h1>&emsp;<em style="color: grey">显示位于此标签下的文章或页面</em>', $c); /*替换标签头html*/
                     }
                 } else {
                     $result['result'] = 'notok';
@@ -224,11 +224,11 @@ if ($type == 'getpage') {
                     $found = true;
                     require './../p/' . $page . '.php';
                     $c = file_get_contents('./../t/p.php');
-                    $c = preg_replace("/\t|\[title\]/", $ptitle . '.', $c);
+                    $c = preg_replace("/\t|\[title\]/", $ptitle , $c);
                     $c = preg_replace("/\t|\[date\]/", $pdat, $c);
                     $c = preg_replace("/\t|\[commentid\]/", $page, $c);
                     if ($_SESSION['log'] == 'yes') {
-                        $edith = '<div><a href="/a/edit.php?e=' . $page . '" class="button button-rounded button-small"  target="_blank">编辑</a>&nbsp;<a href="/a/edit.php?e=' . $page . '&t=del" target="_self" class="button button-rounded button-small">删除</a></div>';
+                        $edith = '<div><button onclick="window.location.href=\'./admin/edit.php?e=' . $page . '\'" class="mdui-btn mdui-shadow-2 mdui-ripple mdui-btn-icon"  target="_blank" mdui-tooltip="{content: \'编辑\'}"><i class="mdui-icon material-icons">edit</i></button>&emsp;<button onclick="deleteConfirm();" target="_self" class="mdui-btn mdui-btn-icon mdui-shadow-2 mdui-ripple" mdui-tooltip="{content: \'删除\'}"><i class="mdui-icon material-icons">delete</i></button></div><br>';
                         $c = preg_replace("/\t|\[editbar\]/", $edith, $c);
                     } else {
                         $c = preg_replace("/\t|\[editbar\]/", '', $c);
@@ -236,7 +236,7 @@ if ($type == 'getpage') {
                     $html = $md->text((htmlspecialchars_decode(stripslashes($pcontent))));
                     $c = preg_replace("/\t|\[content\]/", $html, $c);
                     $tagh = explode(',', $tag);
-                    $taghs = '<div class=\'tagdiv\'><img src=\'./c/tag.png\' style=\'width:16px;\'></img>';
+                    $taghs = '<svg mdui-tooltip="{content: \'TAG\'}" style="padding-top: 5px" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12.876 2h-8.876v9.015l10.972 11.124 9.028-9.028-11.124-11.111zm-3.139 5.737c-.684.684-1.791.684-2.475 0s-.684-1.791 0-2.474c.684-.684 1.791-.684 2.475 0 .684.683.684 1.791 0 2.474zm1.866 13.827l-1.369 1.436-10.234-10.257v-7.743h2v6.891l9.603 9.673z"/></svg>&nbsp;';
                     foreach ($tagh as $val) {
                         $taghs = $taghs . '<a href=\'#tag/' . $val . '\' target=\'_self\' class=\'tag\'>' . $val . '</a>&nbsp;';
                     }
@@ -256,11 +256,11 @@ if ($type == 'getpage') {
                     if ($pdat == $page) {
                         $found = true;
                         $c = file_get_contents('./../t/p.php');
-                        $c = preg_replace("/\t|\[title\]/", $ptitle . '.', $c);
+                        $c = preg_replace("/\t|\[title\]/", $ptitle, $c);
                         $c = preg_replace("/\t|\[date\]/", $pdat, $c);
                         $c = preg_replace("/\t|\[commentid\]/", $key, $c);
                         if ($_SESSION['log'] == 'yes') {
-                            $edith = '<div><a href="/a/edit.php?e=' . $key . '" class="button button-rounded button-small"  target="_blank">编辑</a>&nbsp;<a href="/a/edit.php?e=' . $key . '&t=del" target="_self" class="button button-rounded button-small">删除</a></div>';
+                            $edith = '<div><button onclick="window.location.href=\'./admin/edit.php?e=' . $key . '\'" class="mdui-btn mdui-color-blue-accent mdui-hoverable mdui-shadow-2 mdui-ripple"  target="_blank"><span style="color: #2196f3">编辑</span></button>&nbsp;<button onclick="window.location.href=\'./admin/edit.php?e=' . $key . '&t=del\'" target="_self" class="mdui-btn mdui-color-blue-accent mdui-hoverable mdui-shadow-2 mdui-ripple"><span style="color: #2196f3">删除</span></button></div>';
                             $c = preg_replace("/\t|\[editbar\]/", $edith, $c);
                         } else {
                             $c = preg_replace("/\t|\[editbar\]/", '', $c);
@@ -280,11 +280,11 @@ if ($type == 'getpage') {
                 $result['r'] = $c;
             } else {
                 $result['result'] = 'notok';
-                $result['msg'] = '这篇文章被吃了哦>A<~';
+                $result['msg'] = '这篇文章被吃了哦=3=';
             }
         } else {
             $result['result'] = 'notok';
-            $result['msg'] = '这篇文章被吃了哦>A<~';
+            $result['msg'] = '这篇文章被吃了哦=3=';
         }
     } else if ($mode == 'search') { /*搜索页面*/
         if (file_exists('./../p/index.php')) {
@@ -305,7 +305,7 @@ if ($type == 'getpage') {
                         if ($ptype == 'post') {
                             $tp = preg_replace("/\t|\[date\]/", turndate($pdat), $tp);
                         } else if ($ptype == 'page') {
-                            $tp = preg_replace("/\t|\[date\]/", '[页面]', $tp);
+                            $tp = preg_replace("/\t|\[date\]/", '<div class="mdui-color-blue mdui-img-rounded mdui-shadow-2" style="display: inline-block;"><span style="color: white;">&nbsp;&nbsp;页面&nbsp;&nbsp;</span></div>', $tp);
                         }
                         $tp = preg_replace("/\t|\[link\]/", '#!' . $key, $tp);
                         $poststr = $poststr . $tp;
@@ -325,7 +325,7 @@ if ($type == 'getpage') {
                             if ($ptype == 'post') {
                                 $tp = preg_replace("/\t|\[date\]/", turndate($pdat), $tp);
                             } else if ($ptype == 'page') {
-                                $tp = preg_replace("/\t|\[date\]/", '[页面]', $tp);
+                                $tp = preg_replace("/\t|\[date\]/", '<div class="mdui-color-blue mdui-img-rounded mdui-shadow-2" style="display: inline-block;"><span style="color: white;">&nbsp;&nbsp;页面&nbsp;&nbsp;</span></div>', $tp);
                             }
                             $tp = preg_replace("/\t|\[link\]/", '#!' . $key, $tp);
                             $poststr = $poststr . $tp;
@@ -334,9 +334,9 @@ if ($type == 'getpage') {
                     }
                 }
                 $c = file_get_contents('./../t/search.php');
-                $c = preg_replace("/\t|\搜索/", '搜索:' . $s, $c);
+                $c = preg_replace("/\t|\搜索/", $s . ' 的搜索结果:', $c);
                 if (empty($poststr)) {
-                    $poststr = '<center><h3 style=\'color:#AAA;\'>箱子里空空如也..</h3></center>';
+                    $poststr = '<center><h3 style=\'color:#AAA;\'>箱子里空空如也...</h3></center>';
                 }
                 $c = preg_replace("/\t|\[searchs\]/", $poststr, $c);
                 if (!empty($c)) {
@@ -351,11 +351,11 @@ if ($type == 'getpage') {
             }
         } else {
             $result['result'] = 'notok';
-            $result['msg'] = '请求错误.O_o';
+            $result['msg'] = '请求错误O_o';
         }
     } else {
         $result['result'] = 'notok';
-        $result['msg'] = '请求错误.O_o';
+        $result['msg'] = '请求错误O_o';
     }
 } else if ($type == 'getmore') { /*加载首页文章页面*/
     $c = file_get_contents('./../t/m.php');
@@ -399,7 +399,7 @@ if ($type == 'getpage') {
                     if ($ptype == 'post') {
                         $tp = preg_replace("/\t|\[date\]/", turndate($val), $tp);
                     } else if ($ptype == 'page') {
-                        $tp = preg_replace("/\t|\[date\]/", '[页面]', $tp);
+                        $tp = preg_replace("/\t|\[date\]/", '<div class="mdui-color-blue mdui-img-rounded mdui-shadow-2" style="display: inline-block;"><span style="color: white;">&nbsp;&nbsp;页面&nbsp;&nbsp;</span></div>', $tp);
                     }
                     $tp = preg_replace("/\t|\[link\]/", '#!' . $key, $tp);
                     $poststr = $poststr . $tp;
@@ -410,22 +410,22 @@ if ($type == 'getpage') {
             $c = preg_replace("/\t|\[name\]/", name(), $c);
         } else {
             $result['result'] = 'notok';
-            $result['msg'] = '没有更多了呢~.';
+            $result['msg'] = '没有更多了呢~';
         }
         $result['allp'] = $clipnum;
     } else {
         $result['result'] = 'notok';
-        $result['msg'] = '你还没有任何文章呢.';
+        $result['msg'] = '这里什么也没有O_o';
     }
     if (!empty($c)) {
         $result['r'] = $c;
     } else {
         $result['result'] = 'notok';
-        $result['msg'] = '没有更多了呢~.';
+        $result['msg'] = '没有更多了呢~';
     }
 } else {
     $result['result'] = 'notok';
-    $result['msg'] = '空请求.';
+    $result['msg'] = '空请求QAQ';
 }
 session_write_close();
 $result['ca']=$mdback;

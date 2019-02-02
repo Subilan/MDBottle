@@ -5,27 +5,34 @@ error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 session_start();
 if ($_SESSION['log'] !== 'yes') {
     $result['result'] = 'notok';
-    $result['msg'] = '请登录.';
+    $result['msg'] = '需要登录哦';
     echo json_encode($result, true);
     session_write_close();
-    exit();
+    exit;
 }
 session_write_close();
 require_once './f.php';
 $type = $_GET['type'];
 $t = $_POST['title'];
-$c = urldecode($_POST['content']);
+$c = $_POST['content'];
 $d = $_POST['dat'];
 $a = $_POST['tag'];
 $edits = $_POST['editn'];
 $zhiding = $_POST['ifzd'];
 $fstr = '';
 $result['result'] = 'ok';
-function valid_date($date) { /*日期判断函数*/
-    if (preg_match("/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/", $date, $parts)) {
-        if (checkdate($parts[2], $parts[3], $parts[1])) return true;
-        else return false;
-    } else return false;
+function valid_date($date)
+{
+    /*日期判断函数*/
+    if (preg_match("/^([0-9]{4})-([0-9]{2})-([0-9]{2})\$/", $date, $parts)) {
+        if (checkdate($parts[2], $parts[3], $parts[1])) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        return false;
+    }
 }
 if ($type == 'submit') {
     if (!is_dir('./../p/')) {
@@ -35,7 +42,8 @@ if ($type == 'submit') {
         $strs = '<?php $inn=0;$in=array();$tp=\'\';$tagi=array(); ?>';
         file_put_contents('./../p/index.php', $strs);
     }
-    if ($edits == '' || $edits == 'undefined' || $edits == 'null') { /*新建文章*/
+    if ($edits == '') {
+        /*新建文章*/
         if (!empty($t) && !empty($d) && !empty($c)) {
             if (empty($a)) {
                 $a = '日常';
@@ -60,18 +68,19 @@ if ($type == 'submit') {
             $inn = $inn + 1;
             file_put_contents('./../p/index.php', '<?php $inn=' . $inn . ';$in=' . var_export($in, true) . ';$tp=\'' . $tp . '\';$tagi=' . var_export($tagi, true) . ';?>');
             if (valid_date($datestr)) {
-                $fstr = '<?php $ptitle="' . $t . '";$pcontent=\'' . addslashes(htmlspecialchars($c)) . '\';$pdat="' . $d . '";$tag="' . $a . '";$ptype="post";?>';
+                $fstr = '<?php $ptitle="' . $t . '";$pcontent="' . htmlspecialchars($c) . '";$pdat="' . $d . '";$tag="' . $a . '";$ptype="post";?>';
             } else {
-                $fstr = '<?php $ptitle="' . $t . '";$pcontent=\'' . addslashes(htmlspecialchars($c)) . '\';$pdat="' . $d . '";$tag="' . $a . '";$ptype="page";?>';
+                $fstr = '<?php $ptitle="' . $t . '";$pcontent="' . htmlspecialchars($c) . '";$pdat="' . $d . '";$tag="' . $a . '";$ptype="page";?>';
             }
             file_put_contents('./../p/' . ($inn - 1) . '.php', $fstr);
-			changed();
-            $result['pid'] = ($inn - 1);
+            changed();
+            $result['pid'] = $inn - 1;
         } else {
             $result['result'] = 'notok';
-            $result['msg'] = '除了标签，其他内容不得为空.';
+            $result['msg'] = '除了标签，其他内容不得为空！';
         }
-    } else { /*编辑文章*/
+    } else {
+        /*编辑文章*/
         if (!empty($t) && !empty($d) && !empty($c)) {
             if (empty($a)) {
                 $a = '日常';
@@ -112,21 +121,20 @@ if ($type == 'submit') {
             arsort($in);
             file_put_contents('./../p/index.php', '<?php $inn=' . $inn . ';$in=' . var_export($in, true) . ';$tp=\'' . $tp . '\';$tagi=' . var_export($tagi, true) . ';?>');
             if (valid_date($datestr)) {
-                $fstr = '<?php $ptitle="' . $t . '";$pcontent=\'' . addslashes(htmlspecialchars($c)) . '\';$pdat="' . $d . '";$tag="' . $a . '";$ptype="post";?>';
+                $fstr = '<?php $ptitle="' . $t . '";$pcontent="' . htmlspecialchars($c) . '";$pdat="' . $d . '";$tag="' . $a . '";$ptype="post";?>';
             } else {
-                $fstr = '<?php $ptitle="' . $t . '";$pcontent=\'' . addslashes(htmlspecialchars($c)) . '\';$pdat="' . $d . '";$tag="' . $a . '";$ptype="page";?>';
+                $fstr = '<?php $ptitle="' . $t . '";$pcontent="' . htmlspecialchars($c) . '";$pdat="' . $d . '";$tag="' . $a . '";$ptype="page";?>';
             }
             file_put_contents('./../p/' . $edits . '.php', $fstr);
-			changed();
+            changed();
             $result['pid'] = $edits;
         } else {
             $result['result'] = 'notok';
-            $result['msg'] = '除了标签，其他内容不得为空.';
+            $result['msg'] = '除了标签，其他内容不得为空！';
         }
     }
 } else {
     $result['result'] = 'notok';
-    $result['msg'] = '请求错误.';
+    $result['msg'] = '请求错误。';
 }
 echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
-?>
