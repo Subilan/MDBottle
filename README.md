@@ -1,51 +1,23 @@
-# OBottle 🍪 
-## 更轻量的免数据库博客——OBottle  
-* Markdown解析器源于Parsedown:  
-😂 <http://parsedown.org>  
+# Material Bottle
+![](https://i.loli.net/2019/02/02/5c554e9e4b944.png)
 
-![](https://ww2.sinaimg.cn/large/ed039e1fgy1ft3gual1czj20qc0englt)   
+Material Bottle 是 [OBottle](https://github.com/SomeBottle/OBottle) 的质感设计开发版本。它会不定期地跟随着 OBottle 进行更新，但往往较慢。Material Bottle 在 OBottle 的基础上添加了许多视觉上的新功能和相关优化。
 
---------------------------------
-<h3 style='color:0099FF;'>麻雀虽小，五脏俱全</h3> 
+Material Bottle 采用 [Google Material Design](https://material.io) 作为主要设计语言，[MDUI](https://mdui.org) 作为前端框架进行编写，所使用的 JavaScript 库为 [JQuery](https://jquery.com)。
 
---------------------------------
-## 质感设计版:MDBottle  
-感谢@Subilan为OBottle创造MDUI版.  
-<https://github.com/Subilan/MDBottle>  
+## 特点
 
---------------------------------
-## 特点♂
-* 轻便  
-* 超容易备份  
-* 支持自定义模板  
-* 自带标签页，搜索功能 
-* 支持文章置顶  
-* 简洁,高速  
-* 原生AJAX  
-* RSS支持  
- 
---------------------------------
-## 备份方法
-打包根目录下的**p**目录，走人~
+Material Bottle 与 OBottle 在底层上基本相同，唯一不同的是前端部分，以及少部分通过后端实现的功能。
 
---------------------------------
-## RSS
-访问/r目录即可.  
+- 视觉采用前沿的 Material Design
+- JQuery 框架
+- 如 OBottle 般流畅
+- 可定制性高，有设置内容
+- 适合新手和开发者使用
+- 自带代码高亮（Highlight.js）
+- 自带夜间模式（Js-Cookie）
+- 更多特点等您发掘...
 
---------------------------------
-## 关于安装  
-1. 根目录下解压后界面就可以访问 
-2. 访问/a/，会显示让你用指定方式生成通行证，之后登陆即可发布文章/页面.
-3. 修改/a/conf.php文件以达到配置的目的。
-然后 ...好好享受♂吧！ 
+## 反馈
 
---------------------------------
-## 隐藏的东西
-* 标签页http://localhost/#tag
-* 搜索文章http://localhost/#?搜索内容  
-
-<ul>可搜索内容：
-<li>日期</li>
-<li>文章标题</li>
-<li>文章内容</li>
-</ul>
+如果您对 Material Bottle 有任何好的意见或者良好建议，请反馈到 [Issues](//github.com/Subilan/MDBottle/issues)，感谢您对 Material Bottle 的支持。

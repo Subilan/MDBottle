@@ -178,7 +178,7 @@ function g(page, e) {
 							}
 							$.ht(data.r, e);
 							if (data.r.match(/^[ ]+$/)) {
-								$.ht('<center><h2 style=\'color:#AAA;\'>QAQ 404</h2></center>', e);
+								$.ht('<h2 class="error-info">QAQ 404</h2>', e);
 							}
 							if (page.indexOf('m') !== -1) {
 								allnum = data.allp;
@@ -192,7 +192,7 @@ function g(page, e) {
 							}
 						}
 					} else {
-						$.ht('<center><h2 style=\'color:#AAA;\'>' + data.msg + '</h2></center>', e);
+						$.ht('<h2 class="error-info">' + data.msg + '</h2>', e);
 					}
 					$.op(1, e);
 					document.getElementById('l').style.display = 'none';
@@ -203,7 +203,7 @@ function g(page, e) {
 				if (!usecache) {
 					$.op(1, e);
 					document.getElementById('l').style.display = 'none';
-					$.ht('<center><h2 style=\'color:#AAA;\'>失去连接~OAO</h2></center>', e);
+					$.ht('<h2 class="error-info">失去连接~OAO</h2>', e);
 				}
 				state = true;
 			}
@@ -248,7 +248,7 @@ function getmore() { /*加载更多-函数*/
 							allnum = data.allp;
 							if ((Number(allnum) - 1) <= np) { /*数组count比实际数量多1*/
 								data.r = data.r + '<script>setTimeout(function(){$.rm(\'loadmore\');},10);</script>';
-								console.log('No more.');
+								console.log('No more');
 							} else {
 								np += 1;
 							}
@@ -260,7 +260,7 @@ function getmore() { /*加载更多-函数*/
 							}
 						}
 					} else {
-						document.getElementById(e).innerHTML = document.getElementById(e).innerHTML + '<center><h2 style=\'color:#AAA;\'>' + data.msg + '</h2></center>';
+						document.getElementById(e).innerHTML = document.getElementById(e).innerHTML + '<h2 class="error-info">' + data.msg + '</h2>';
 					}
 					$.op(1, e);
 					document.getElementById('l').style.display = 'none';

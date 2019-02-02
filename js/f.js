@@ -3,8 +3,8 @@ var t, c, times = 0,
 ct = 0,
 lastrequest = 0;
 function faq() {
-    alert('主要内容在Edit页面的文本框里已经提示了~\n值得一说的是【日期/链接】这一栏\n填写日期的格式为20080101这样的格式，当你填写的是日期时，你发布的就是【文章】，当你填的是链接例如links或者不是日期的数字之类的时，就会生成一个页面.\n例如http://example.com/#links\n\n当你选择创建页面时可以不用管标签这一栏.');
-    alert('最有灵性的要属底下的多功能键(O_o)?了.在单击或者多击的情况下实现不同功能.\n点击1次————发布/编辑\n点击2次————预览\n点击3次————上传图片\n点击4次————读取草稿\n点击5次————保存草稿\n点击6次————注销登录\n点击更多下取消.');
+    alert('主要内容在Edit页面的文本框里已经提示了~\n值得一说的是【日期/链接】这一栏\n填写日期的格式为20080101这样的格式，当你填写的是日期时，你发布的就是【文章】，当你填的是链接例如links或者不是日期的数字之类的时，就会生成一个页面.\n例如http://example.com/#links\n\n当你选择创建页面时可以不用管标签这一栏');
+    alert('最有灵性的要属底下的多功能键(O_o)?了.在单击或者多击的情况下实现不同功能.\n点击1次————发布/编辑\n点击2次————预览\n点击3次————上传图片\n点击4次————读取草稿\n点击5次————保存草稿\n点击6次————注销登录\n点击更多下取消');
 }
 function edit() {
     if (timer == false) {
@@ -17,7 +17,7 @@ function edit() {
         500);
         c = setInterval(function() {
             if (times - lastrequest >= 1) {
-                console.log('Chosen.');
+                console.log('Chosen');
                 clearInterval(t);
                 clearInterval(c);
                 timer = false;
@@ -50,7 +50,7 @@ function act(step) {
         localStorage.edittag = document.getElementById("a").value;
     } else if (step == 4) {
         $.ht('读取草稿', 'btn');
-        if (confirm('你真的要读取草稿吗？O_o\n这会覆盖你现在的内容.')) {
+        if (confirm('你真的要读取草稿吗？O_o\n这会覆盖你现在的内容')) {
             document.getElementById("t").value = localStorage.edittitle;
             document.getElementById("c").value = localStorage.editcontent;
             document.getElementById("d").value = localStorage.editdal;
@@ -59,7 +59,7 @@ function act(step) {
     } else if (step == 6) {
         $.ht('登出', 'btn');
         if (confirm('你真的要登出嘛O_o')) {
-            console.log('logout.');
+            console.log('logout');
             window.open('?t=out', '_self');
         };
     } else if (step >= 7) {

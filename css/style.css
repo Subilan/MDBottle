@@ -1,0 +1,26 @@
+body {
+	font-family: Roboto, "Noto Sans SC", "SourceHanSans Regular", "思源黑体", "微软雅黑", "Microsoft Yahei UI", sans-serif;
+}
+
+.description-head {
+	text-align: center;
+}
+
+.loading-text {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.copyright-infomation {
+	color: #aaa;
+	text-align: center;
+}
+
+h2.error-info {
+	font-size: 32px;
+	color: #aaa;
+	font-weight: bolder;
+	text-align: center;
+}
