@@ -1,3 +1,6 @@
+# 停止更新
+由于某些原因，Material Bottle 无法继续更新。当然，如果我有一定的思路了，我一定会重新开坑的！😊谢谢支持！
+
 # Material Bottle 
 ![主页](https://i.loli.net/2018/10/06/5bb8c8ba220ca.png)
 
